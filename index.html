@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Virtual Tour</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <style>
+        body { margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        #container { display:flex; height:100vh; }
+        #viewer { flex-grow:1; }
+        #sidebar {
+            width:380px;
+            background:#f9f9f9;
+            border-left:1px solid #ccc;
+            padding:20px;
+            display:flex;
+            flex-direction:column;
+        }
+        h2 { margin-top:0; }
+        button {
+            cursor:pointer;
+            font-size:14px;
+            margin:5px 5px 15px 0;
+            padding:10px;
+            background:#3498db;
+            color:#fff;
+            border:none;
+            border-radius:4px;
+        }
+        button:hover { background:#2980b9; }
+        ul {
+            list-style:none;
+            padding-left:0;
+            overflow-y:auto;
+            max-height:320px;
+            border:1px solid #ccc;
+            border-radius:4px;
+        }
+        li {
+            padding:12px;
+            border-bottom:1px solid #eee;
+            cursor:pointer;
+        }
+        li.active {
+            background:#2980b9;
+            color:#fff;
+        }
+        li:hover { background:#ecf0f1; }
+        #minimap-container {
+            flex-grow:1;
+            margin-top:10px;
+            border:1px solid #ccc;
+            border-radius:4px;
+            position:relative;
+        }
+        canvas#minimap {
+            width:100%;
+            height:300px;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="viewer"></div>
+        <div id="sidebar">
+            <h2>Virtual Tour</h2>
+            <button onclick="prevScene()">Previous</button>
+            <button onclick="nextScene()">Next</button>
+            <button onclick="playTour()">Play Tour</button>
+            <button onclick="stopTour()">Stop</button>
+
+            <h3>Locations</h3>
+            <ul id="sceneList"></ul>
+
+            <div id="minimap-container">
+                <canvas id="minimap"></canvas>
+                <div style="text-align:center; font-size:12px; margin-top:5px;">Click on map to navigate</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let config = null;
+        let viewer = null;
+        let currentIdx = 0;
+        let playing = false;
+        let playInterval = null;
+
+        fetch('config.json')
+            .then(r => r.json())
+            .then(data => {
+                config = data;
+                init();
+            });
+
+        function init() {
+            viewer = pannellum.viewer('viewer', {
+                'default': { 'firstScene': config.scene_ids[0], 'sceneFadeDuration': 500 },
+                'scenes': config.scenes
+            });
+
+            viewer.on('scenechange', newScene);
+            buildSceneList();
+            updateUI();
+            drawMinimap();
+            setupMinimapClick();
+        }
+
+        function newScene(sceneId) {
+            currentIdx = config.scene_ids.indexOf(sceneId);
+            updateUI();
+            drawMinimap();
+        }
+
+        function buildSceneList() {
+            const ul = document.getElementById('sceneList');
+            ul.innerHTML = '';
+            config.scene_ids.forEach((id, idx) => {
+                const li = document.createElement('li');
+                li.textContent = 'Location ' + id;
+                li.onclick = () => viewer.loadScene(id);
+                if (idx === currentIdx) li.classList.add('active');
+                ul.appendChild(li);
+            });
+        }
+
+        function updateUI() {
+            buildSceneList();
+        }
+
+        function prevScene() {
+            if (currentIdx > 0) {
+                viewer.loadScene(config.scene_ids[currentIdx - 1]);
+            }
+        }
+
+        function nextScene() {
+            if (currentIdx < config.scene_ids.length - 1) {
+                viewer.loadScene(config.scene_ids[currentIdx + 1]);
+            }
+        }
+
+        function playTour() {
+            if (playing) return;
+            playing = true;
+            let i = 0;
+            playInterval = setInterval(() => {
+                if (i >= config.scene_ids.length) {
+                    stopTour();
+                    return;
+                }
+                viewer.loadScene(config.scene_ids[i]);
+                i++;
+            }, 2000);
+        }
+
+        function stopTour() {
+            playing = false;
+            clearInterval(playInterval);
+        }
+
+        function drawMinimap() {
+            const canvas = document.getElementById('minimap');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width = canvas.offsetWidth;
+            const height = canvas.height = canvas.offsetHeight;
+
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = '#f0f0f0';
+            ctx.fillRect(0, 0, width, height);
+
+            const xArr = config.keyframes.map(kf => kf.x);
+            const zArr = config.keyframes.map(kf => kf.z);
+
+            const minX = Math.min(...xArr);
+            const maxX = Math.max(...xArr);
+            const minZ = Math.min(...zArr);
+            const maxZ = Math.max(...zArr);
+
+            const margin = 20;
+            const scaleX = (width - 2 * margin) / (maxX - minX);
+            const scaleZ = (height - 2 * margin) / (maxZ - minZ);
+            const scale = Math.min(scaleX, scaleZ);
+
+            // Draw path line
+            ctx.beginPath();
+            config.keyframes.forEach((kf, idx) => {
+                const px = margin + (kf.x - minX) * scale;
+                const pz = margin + (kf.z - minZ) * scale;
+
+                if (idx === 0) {
+                    ctx.moveTo(px, pz);
+                } else {
+                    ctx.lineTo(px, pz);
+                }
+            });
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 1.5;
+            ctx.stroke();
+
+            // Draw points
+            config.keyframes.forEach((kf, idx) => {
+                const px = margin + (kf.x - minX) * scale;
+                const pz = margin + (kf.z - minZ) * scale;
+
+                ctx.beginPath();
+                ctx.arc(px, pz, idx === currentIdx ? 7 : 4, 0, 2 * Math.PI, false);
+                ctx.fillStyle = idx === currentIdx ? 'red' : 'darkblue';
+                ctx.fill();
+                ctx.lineWidth = 1;
+                ctx.strokeStyle = 'white';
+                ctx.stroke();
+            });
+        }
+
+        function setupMinimapClick() {
+            const canvas = document.getElementById('minimap');
+            canvas.addEventListener('click', (e) => {
+                const rect = canvas.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const clickZ = e.clientY - rect.top;
+
+                const width = canvas.offsetWidth;
+                const height = canvas.offsetHeight;
+                const margin = 20;
+
+                const xArr = config.keyframes.map(kf => kf.x);
+                const zArr = config.keyframes.map(kf => kf.z);
+
+                const minX = Math.min(...xArr);
+                const maxX = Math.max(...xArr);
+                const minZ = Math.min(...zArr);
+                const maxZ = Math.max(...zArr);
+
+                const scaleX = (width - 2 * margin) / (maxX - minX);
+                const scaleZ = (height - 2 * margin) / (maxZ - minZ);
+                const scale = Math.min(scaleX, scaleZ);
+
+                // Convert click to world coords
+                const worldX = minX + (clickX - margin) / scale;
+                const worldZ = minZ + (clickZ - margin) / scale;
+
+                // Find closest keyframe
+                let closest = 0;
+                let closestDist = Infinity;
+                config.keyframes.forEach((kf, idx) => {
+                    const dx = kf.x - worldX;
+                    const dz = kf.z - worldZ;
+                    const dist = Math.sqrt(dx * dx + dz * dz);
+                    if (dist < closestDist) {
+                        closestDist = dist;
+                        closest = idx;
+                    }
+                });
+
+                viewer.loadScene(config.scene_ids[closest]);
+            });
+        }
+    </script>
+</body>
+</html>
