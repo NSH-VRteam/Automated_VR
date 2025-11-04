@@ -7,15 +7,6 @@
       "yaw": 0.0,
       "pitch": 0.0,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.2973088365443346,
-          "text": "Next Location",
-          "sceneId": "1"
-        }
-      ],
       "position": {
         "x": 0.0,
         "y": 0.0,
@@ -26,25 +17,9 @@
       "type": "equirectangular",
       "panorama": "Images/1.jpg",
       "title": "Location 1",
-      "yaw": 0.00837723,
-      "pitch": -1.566742237,
+      "yaw": 0.00014621024569684457,
+      "pitch": -0.027344810565711326,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 8.097322546542562,
-          "text": "Next Location",
-          "sceneId": "2"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.70269116345565,
-          "text": "Previous Location",
-          "sceneId": "0"
-        }
-      ],
       "position": {
         "x": -0.000883139,
         "y": -0.002066799,
@@ -55,25 +30,9 @@
       "type": "equirectangular",
       "panorama": "Images/2.jpg",
       "title": "Location 2",
-      "yaw": -0.935005968,
-      "pitch": -1.54527349,
+      "yaw": -0.01631893266739674,
+      "pitch": -0.02697011024428367,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 5.970290999967426,
-          "text": "Next Location",
-          "sceneId": "3"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -171.90267745345744,
-          "text": "Previous Location",
-          "sceneId": "1"
-        }
-      ],
       "position": {
         "x": 0.00540805,
         "y": -0.009221082,
@@ -84,25 +43,9 @@
       "type": "equirectangular",
       "panorama": "Images/3.jpg",
       "title": "Location 3",
-      "yaw": -2.220620726,
-      "pitch": -0.643259423,
+      "yaw": -0.03875714310672685,
+      "pitch": -0.011226994875828941,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.018490339653135374,
-          "text": "Next Location",
-          "sceneId": "4"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -174.02970900003257,
-          "text": "Previous Location",
-          "sceneId": "2"
-        }
-      ],
       "position": {
         "x": 0.01075629,
         "y": -0.017165789,
@@ -113,25 +56,9 @@
       "type": "equirectangular",
       "panorama": "Images/4.jpg",
       "title": "Location 4",
-      "yaw": -2.699214676,
-      "pitch": 0.424840702,
+      "yaw": -0.04711018331435197,
+      "pitch": 0.007414869046384059,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.867562649807686,
-          "text": "Next Location",
-          "sceneId": "5"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.9815096603469,
-          "text": "Previous Location",
-          "sceneId": "3"
-        }
-      ],
       "position": {
         "x": 0.010772872,
         "y": -0.019200818,
@@ -142,25 +69,9 @@
       "type": "equirectangular",
       "panorama": "Images/5.jpg",
       "title": "Location 5",
-      "yaw": -1.205334524,
-      "pitch": -0.008475163,
+      "yaw": -0.02103705603175861,
+      "pitch": -0.00014791949899320019,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.4008129136972385,
-          "text": "Next Location",
-          "sceneId": "6"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.13243735019233,
-          "text": "Previous Location",
-          "sceneId": "4"
-        }
-      ],
       "position": {
         "x": 0.024056911,
         "y": -0.030093821,
@@ -171,25 +82,9 @@
       "type": "equirectangular",
       "panorama": "Images/6.jpg",
       "title": "Location 6",
-      "yaw": -2.197475358,
-      "pitch": -2.050884847,
+      "yaw": -0.03835318022854112,
+      "pitch": -0.03579469315941015,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.3541451141918572,
-          "text": "Next Location",
-          "sceneId": "7"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.59918708630275,
-          "text": "Previous Location",
-          "sceneId": "5"
-        }
-      ],
       "position": {
         "x": 0.016547036,
         "y": -0.01341036,
@@ -200,25 +95,9 @@
       "type": "equirectangular",
       "panorama": "Images/7.jpg",
       "title": "Location 7",
-      "yaw": -0.522108354,
-      "pitch": -3.096028155,
+      "yaw": -0.009112509829468107,
+      "pitch": -0.05403588503919534,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.3351240919549021,
-          "text": "Next Location",
-          "sceneId": "8"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.64585488580815,
-          "text": "Previous Location",
-          "sceneId": "6"
-        }
-      ],
       "position": {
         "x": 0.037751431,
         "y": -0.035220657,
@@ -229,25 +108,9 @@
       "type": "equirectangular",
       "panorama": "Images/8.jpg",
       "title": "Location 8",
-      "yaw": -0.835267229,
-      "pitch": -3.088625678,
+      "yaw": -0.014578163280059465,
+      "pitch": -0.05390668744274219,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.4585605942167548,
-          "text": "Next Location",
-          "sceneId": "9"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.6648759080451,
-          "text": "Previous Location",
-          "sceneId": "7"
-        }
-      ],
       "position": {
         "x": 0.036339744,
         "y": -0.030642768,
@@ -258,25 +121,9 @@
       "type": "equirectangular",
       "panorama": "Images/9.jpg",
       "title": "Location 9",
-      "yaw": -0.479670438,
-      "pitch": -1.941990686,
+      "yaw": -0.008371828467583324,
+      "pitch": -0.03389413151376335,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.950900139409016,
-          "text": "Next Location",
-          "sceneId": "10"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.54143940578325,
-          "text": "Previous Location",
-          "sceneId": "8"
-        }
-      ],
       "position": {
         "x": 0.032848664,
         "y": -0.056788306,
@@ -287,25 +134,9 @@
       "type": "equirectangular",
       "panorama": "Images/10.jpg",
       "title": "Location 10",
-      "yaw": -0.179394255,
-      "pitch": -2.190788156,
+      "yaw": -0.0031310204089123003,
+      "pitch": -0.038236466535895165,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.6758832198843311,
-          "text": "Next Location",
-          "sceneId": "11"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.04909986059099,
-          "text": "Previous Location",
-          "sceneId": "9"
-        }
-      ],
       "position": {
         "x": 0.048686933,
         "y": -0.064064377,
@@ -316,25 +147,9 @@
       "type": "equirectangular",
       "panorama": "Images/11.jpg",
       "title": "Location 11",
-      "yaw": -0.620426845,
-      "pitch": -4.631279473,
+      "yaw": -0.010828491213010518,
+      "pitch": -0.08083107538387783,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.4975925250976503,
-          "text": "Next Location",
-          "sceneId": "12"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.32411678011567,
-          "text": "Previous Location",
-          "sceneId": "10"
-        }
-      ],
       "position": {
         "x": 0.045751503,
         "y": -0.056293528,
@@ -345,25 +160,9 @@
       "type": "equirectangular",
       "panorama": "Images/12.jpg",
       "title": "Location 12",
-      "yaw": -0.802987931,
-      "pitch": -3.592491941,
+      "yaw": -0.014014783249727042,
+      "pitch": -0.06270081272181187,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.8668417435066333,
-          "text": "Next Location",
-          "sceneId": "13"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.50240747490236,
-          "text": "Previous Location",
-          "sceneId": "11"
-        }
-      ],
       "position": {
         "x": 0.056958646,
         "y": -0.063779354,
@@ -374,25 +173,9 @@
       "type": "equirectangular",
       "panorama": "Images/13.jpg",
       "title": "Location 13",
-      "yaw": -0.228281569,
-      "pitch": -2.588280188,
+      "yaw": -0.0039842650006686195,
+      "pitch": -0.04517401124473783,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.9092147235598644,
-          "text": "Next Location",
-          "sceneId": "14"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.13315825649337,
-          "text": "Previous Location",
-          "sceneId": "12"
-        }
-      ],
       "position": {
         "x": 0.065172664,
         "y": -0.076714318,
@@ -403,25 +186,9 @@
       "type": "equirectangular",
       "panorama": "Images/14.jpg",
       "title": "Location 14",
-      "yaw": -1.05360884,
-      "pitch": -2.149158096,
+      "yaw": -0.018388943286118134,
+      "pitch": -0.03750988492109237,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 4.122243369448295,
-          "text": "Next Location",
-          "sceneId": "15"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.09078527644016,
-          "text": "Previous Location",
-          "sceneId": "13"
-        }
-      ],
       "position": {
         "x": 0.081355765,
         "y": -0.09015659,
@@ -432,25 +199,9 @@
       "type": "equirectangular",
       "panorama": "Images/15.jpg",
       "title": "Location 15",
-      "yaw": -0.600096187,
-      "pitch": -3.260750934,
+      "yaw": -0.010473654291813593,
+      "pitch": -0.05691083988578031,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.9052706033709851,
-          "text": "Next Location",
-          "sceneId": "16"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -175.87775663055172,
-          "text": "Previous Location",
-          "sceneId": "14"
-        }
-      ],
       "position": {
         "x": 0.094810149,
         "y": -0.100225544,
@@ -461,25 +212,9 @@
       "type": "equirectangular",
       "panorama": "Images/16.jpg",
       "title": "Location 16",
-      "yaw": -1.484026201,
-      "pitch": -3.672961173,
+      "yaw": -0.025901143393313165,
+      "pitch": -0.06410526576676305,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.686769706444509,
-          "text": "Next Location",
-          "sceneId": "17"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.09472939662902,
-          "text": "Previous Location",
-          "sceneId": "15"
-        }
-      ],
       "position": {
         "x": 0.099803948,
         "y": -0.10545298,
@@ -490,25 +225,9 @@
       "type": "equirectangular",
       "panorama": "Images/17.jpg",
       "title": "Location 17",
-      "yaw": 2.088601142,
-      "pitch": -2.384304404,
+      "yaw": 0.03645296668881362,
+      "pitch": -0.04161396221960106,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.6461838437340969,
-          "text": "Next Location",
-          "sceneId": "18"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.31323029355548,
-          "text": "Previous Location",
-          "sceneId": "16"
-        }
-      ],
       "position": {
         "x": 0.117641285,
         "y": -0.128187229,
@@ -519,25 +238,9 @@
       "type": "equirectangular",
       "panorama": "Images/18.jpg",
       "title": "Location 18",
-      "yaw": -0.259556591,
-      "pitch": -4.272060799,
+      "yaw": -0.0045301171082022815,
+      "pitch": -0.07456152678792968,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.018281234360513005,
-          "text": "Next Location",
-          "sceneId": "19"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.3538161562659,
-          "text": "Previous Location",
-          "sceneId": "17"
-        }
-      ],
       "position": {
         "x": 0.115604696,
         "y": -0.117148905,
@@ -548,25 +251,9 @@
       "type": "equirectangular",
       "panorama": "Images/19.jpg",
       "title": "Location 19",
-      "yaw": 0.804622151,
-      "pitch": -2.671112027,
+      "yaw": 0.014043305769428985,
+      "pitch": -0.046619699560769674,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.027162485932001,
-          "text": "Next Location",
-          "sceneId": "20"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.98171876563947,
-          "text": "Previous Location",
-          "sceneId": "18"
-        }
-      ],
       "position": {
         "x": 0.115685325,
         "y": -0.133613989,
@@ -577,25 +264,9 @@
       "type": "equirectangular",
       "panorama": "Images/20.jpg",
       "title": "Location 20",
-      "yaw": 1.862535661,
-      "pitch": -2.238602413,
+      "yaw": 0.03250737972025894,
+      "pitch": -0.03907098274993991,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -3.426668715825172,
-          "text": "Next Location",
-          "sceneId": "21"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.972837514068,
-          "text": "Previous Location",
-          "sceneId": "19"
-        }
-      ],
       "position": {
         "x": 0.123964202,
         "y": -0.150285102,
@@ -606,25 +277,9 @@
       "type": "equirectangular",
       "panorama": "Images/21.jpg",
       "title": "Location 21",
-      "yaw": 0.748222548,
-      "pitch": -3.588634562,
+      "yaw": 0.013058947000261313,
+      "pitch": -0.06263348875776459,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.23242880669833768,
-          "text": "Next Location",
-          "sceneId": "22"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 176.57333128417483,
-          "text": "Previous Location",
-          "sceneId": "20"
-        }
-      ],
       "position": {
         "x": 0.11661355,
         "y": -0.138358107,
@@ -635,25 +290,9 @@
       "type": "equirectangular",
       "panorama": "Images/22.jpg",
       "title": "Location 22",
-      "yaw": -0.801003892,
-      "pitch": -2.93552423,
+      "yaw": -0.013980155236689067,
+      "pitch": -0.051234563085571304,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.664354055693413,
-          "text": "Next Location",
-          "sceneId": "23"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.76757119330168,
-          "text": "Previous Location",
-          "sceneId": "21"
-        }
-      ],
       "position": {
         "x": 0.115669867,
         "y": -0.157535281,
@@ -664,25 +303,9 @@
       "type": "equirectangular",
       "panorama": "Images/23.jpg",
       "title": "Location 23",
-      "yaw": -2.826383098,
-      "pitch": -5.123253849,
+      "yaw": -0.04932969098281756,
+      "pitch": -0.0894176480805224,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -3.8117384595021786,
-          "text": "Next Location",
-          "sceneId": "24"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.3356459443066,
-          "text": "Previous Location",
-          "sceneId": "22"
-        }
-      ],
       "position": {
         "x": 0.109011058,
         "y": -0.16710256,
@@ -693,25 +316,9 @@
       "type": "equirectangular",
       "panorama": "Images/24.jpg",
       "title": "Location 24",
-      "yaw": -5.503273486,
-      "pitch": -4.496024199,
+      "yaw": -0.09605024196840607,
+      "pitch": -0.07847042552189075,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.0770434322650355,
-          "text": "Next Location",
-          "sceneId": "25"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 176.18826154049785,
-          "text": "Previous Location",
-          "sceneId": "23"
-        }
-      ],
       "position": {
         "x": 0.106077428,
         "y": -0.173673327,
@@ -722,25 +329,9 @@
       "type": "equirectangular",
       "panorama": "Images/25.jpg",
       "title": "Location 25",
-      "yaw": -25.49395391,
-      "pitch": -5.888866247,
+      "yaw": -0.4449534350811821,
+      "pitch": -0.10278010521971165,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 22.83919754974839,
-          "text": "Next Location",
-          "sceneId": "26"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.92295656773499,
-          "text": "Previous Location",
-          "sceneId": "24"
-        }
-      ],
       "position": {
         "x": 0.111632591,
         "y": -0.17513937,
@@ -751,25 +342,9 @@
       "type": "equirectangular",
       "panorama": "Images/26.jpg",
       "title": "Location 26",
-      "yaw": -35.47095321,
-      "pitch": -4.446578034,
+      "yaw": -0.6190849223353516,
+      "pitch": -0.07760742714015637,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 40.18529669075607,
-          "text": "Next Location",
-          "sceneId": "27"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -157.16080245025162,
-          "text": "Previous Location",
-          "sceneId": "25"
-        }
-      ],
       "position": {
         "x": 0.125062531,
         "y": -0.181531766,
@@ -780,25 +355,9 @@
       "type": "equirectangular",
       "panorama": "Images/27.jpg",
       "title": "Location 27",
-      "yaw": -47.44122495,
-      "pitch": -3.090484178,
+      "yaw": -0.8280055765567822,
+      "pitch": -0.053939124386890504,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 71.73996297330757,
-          "text": "Next Location",
-          "sceneId": "28"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -139.81470330924392,
-          "text": "Previous Location",
-          "sceneId": "26"
-        }
-      ],
       "position": {
         "x": 0.146252949,
         "y": -0.181135494,
@@ -809,25 +368,9 @@
       "type": "equirectangular",
       "panorama": "Images/28.jpg",
       "title": "Location 28",
-      "yaw": -75.14662698,
-      "pitch": -0.615073184,
+      "yaw": -1.3115560625690028,
+      "pitch": -0.010735052201524906,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 81.88490046329466,
-          "text": "Next Location",
-          "sceneId": "29"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -108.26003702669244,
-          "text": "Previous Location",
-          "sceneId": "27"
-        }
-      ],
       "position": {
         "x": 0.264718649,
         "y": -0.175429134,
@@ -838,25 +381,9 @@
       "type": "equirectangular",
       "panorama": "Images/29.jpg",
       "title": "Location 29",
-      "yaw": -87.44806454,
-      "pitch": -3.522006964,
+      "yaw": -1.5262566507195006,
+      "pitch": -0.061470617799969395,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.26785830496884,
-          "text": "Next Location",
-          "sceneId": "30"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -98.11509953670536,
-          "text": "Previous Location",
-          "sceneId": "28"
-        }
-      ],
       "position": {
         "x": 0.551340371,
         "y": -0.16906129,
@@ -867,25 +394,9 @@
       "type": "equirectangular",
       "panorama": "Images/30.jpg",
       "title": "Location 30",
-      "yaw": -88.28941639,
-      "pitch": -3.428025693,
+      "yaw": -1.540941010669746,
+      "pitch": -0.05983033518581033,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.30858388101905,
-          "text": "Next Location",
-          "sceneId": "31"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.73214169503116,
-          "text": "Previous Location",
-          "sceneId": "29"
-        }
-      ],
       "position": {
         "x": 0.607869562,
         "y": -0.167487265,
@@ -896,25 +407,9 @@
       "type": "equirectangular",
       "panorama": "Images/31.jpg",
       "title": "Location 31",
-      "yaw": -89.17482203,
-      "pitch": -3.012786111,
+      "yaw": -1.5563942543034737,
+      "pitch": -0.05258303729530535,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.94681513909117,
-          "text": "Next Location",
-          "sceneId": "32"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.69141611898097,
-          "text": "Previous Location",
-          "sceneId": "30"
-        }
-      ],
       "position": {
         "x": 0.662110809,
         "y": -0.158750448,
@@ -925,25 +420,9 @@
       "type": "equirectangular",
       "panorama": "Images/32.jpg",
       "title": "Location 32",
-      "yaw": -88.94426078,
-      "pitch": -1.542670475,
+      "yaw": -1.5523702013634597,
+      "pitch": -0.02692467906205487,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.47310384000983,
-          "text": "Next Location",
-          "sceneId": "33"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.05318486090884,
-          "text": "Previous Location",
-          "sceneId": "31"
-        }
-      ],
       "position": {
         "x": 0.872904672,
         "y": -0.164844289,
@@ -954,25 +433,9 @@
       "type": "equirectangular",
       "panorama": "Images/33.jpg",
       "title": "Location 33",
-      "yaw": -89.94865634,
-      "pitch": -1.949305959,
+      "yaw": -1.5699002108778721,
+      "pitch": -0.03402180711329559,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.48041201252852,
-          "text": "Next Location",
-          "sceneId": "34"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.52689615999019,
-          "text": "Previous Location",
-          "sceneId": "32"
-        }
-      ],
       "position": {
         "x": 0.989152095,
         "y": -0.142408813,
@@ -983,25 +446,9 @@
       "type": "equirectangular",
       "panorama": "Images/34.jpg",
       "title": "Location 34",
-      "yaw": -90.98575579,
-      "pitch": -1.81721656,
+      "yaw": -1.5880010109509943,
+      "pitch": -0.03171641219376509,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 96.34892795963358,
-          "text": "Next Location",
-          "sceneId": "35"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.51958798747148,
-          "text": "Previous Location",
-          "sceneId": "33"
-        }
-      ],
       "position": {
         "x": 1.161595005,
         "y": -0.151590896,
@@ -1012,25 +459,9 @@
       "type": "equirectangular",
       "panorama": "Images/35.jpg",
       "title": "Location 35",
-      "yaw": -89.92768151,
-      "pitch": -1.413861447,
+      "yaw": -1.569534131034326,
+      "pitch": -0.024676537417161304,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.02879881792056,
-          "text": "Next Location",
-          "sceneId": "36"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -83.65107204036642,
-          "text": "Previous Location",
-          "sceneId": "34"
-        }
-      ],
       "position": {
         "x": 1.336260188,
         "y": -0.1321036,
@@ -1041,25 +472,9 @@
       "type": "equirectangular",
       "panorama": "Images/36.jpg",
       "title": "Location 36",
-      "yaw": -89.59439187,
-      "pitch": 0.187367339,
+      "yaw": -1.5637171294535392,
+      "pitch": 0.0032701769762503797,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.75798538269646,
-          "text": "Next Location",
-          "sceneId": "37"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.97120118207945,
-          "text": "Previous Location",
-          "sceneId": "35"
-        }
-      ],
       "position": {
         "x": 1.517194652,
         "y": -0.147867998,
@@ -1070,25 +485,9 @@
       "type": "equirectangular",
       "panorama": "Images/37.jpg",
       "title": "Location 37",
-      "yaw": -90.8690878,
-      "pitch": -1.714058997,
+      "yaw": -1.5859647703938107,
+      "pitch": -0.029915973071081608,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.78253245098139,
-          "text": "Next Location",
-          "sceneId": "38"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.24201461730354,
-          "text": "Previous Location",
-          "sceneId": "36"
-        }
-      ],
       "position": {
         "x": 1.680037432,
         "y": -0.153813011,
@@ -1099,25 +498,9 @@
       "type": "equirectangular",
       "panorama": "Images/38.jpg",
       "title": "Location 38",
-      "yaw": -92.58237629,
-      "pitch": -2.217891924,
+      "yaw": -1.6158672955808324,
+      "pitch": -0.038709516527191845,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 98.2873448488184,
-          "text": "Next Location",
-          "sceneId": "39"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.21746754901861,
-          "text": "Previous Location",
-          "sceneId": "37"
-        }
-      ],
       "position": {
         "x": 1.832532901,
         "y": -0.185995218,
@@ -1128,25 +511,9 @@
       "type": "equirectangular",
       "panorama": "Images/39.jpg",
       "title": "Location 39",
-      "yaw": -90.83974062,
-      "pitch": -2.174778099,
+      "yaw": -1.5854525654766352,
+      "pitch": -0.0379570383278132,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 96.41362754195254,
-          "text": "Next Location",
-          "sceneId": "40"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -81.71265515118161,
-          "text": "Previous Location",
-          "sceneId": "38"
-        }
-      ],
       "position": {
         "x": 1.922411892,
         "y": -0.187149129,
@@ -1157,25 +524,9 @@
       "type": "equirectangular",
       "panorama": "Images/40.jpg",
       "title": "Location 40",
-      "yaw": -88.37230933,
-      "pitch": -1.315132496,
+      "yaw": -1.542387765399404,
+      "pitch": -0.022953392155171153,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 85.49877805562612,
-          "text": "Next Location",
-          "sceneId": "41"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -83.58637245804746,
-          "text": "Previous Location",
-          "sceneId": "39"
-        }
-      ],
       "position": {
         "x": 2.14385704,
         "y": -0.229463236,
@@ -1186,25 +537,9 @@
       "type": "equirectangular",
       "panorama": "Images/41.jpg",
       "title": "Location 41",
-      "yaw": -87.09612126,
-      "pitch": -1.842308183,
+      "yaw": -1.5201140817032324,
+      "pitch": -0.03215434362978423,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.3830831391431,
-          "text": "Next Location",
-          "sceneId": "42"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -94.50122194437388,
-          "text": "Previous Location",
-          "sceneId": "40"
-        }
-      ],
       "position": {
         "x": 2.279464823,
         "y": -0.221629416,
@@ -1215,25 +550,9 @@
       "type": "equirectangular",
       "panorama": "Images/42.jpg",
       "title": "Location 42",
-      "yaw": -88.7384248,
-      "pitch": -2.702106443,
+      "yaw": -1.5487776857933906,
+      "pitch": -0.047160654169702484,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.75400205906688,
-          "text": "Next Location",
-          "sceneId": "43"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.6169168608569,
-          "text": "Previous Location",
-          "sceneId": "41"
-        }
-      ],
       "position": {
         "x": 2.430849609,
         "y": -0.22788841,
@@ -1244,25 +563,9 @@
       "type": "equirectangular",
       "panorama": "Images/43.jpg",
       "title": "Location 43",
-      "yaw": -88.8429577,
-      "pitch": -2.063672455,
+      "yaw": -1.5506021290750487,
+      "pitch": -0.03601787902246451,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.23045428341943,
-          "text": "Next Location",
-          "sceneId": "44"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.24599794093314,
-          "text": "Previous Location",
-          "sceneId": "42"
-        }
-      ],
       "position": {
         "x": 2.574245275,
         "y": -0.22287529,
@@ -1273,25 +576,9 @@
       "type": "equirectangular",
       "panorama": "Images/44.jpg",
       "title": "Location 44",
-      "yaw": -88.9415025,
-      "pitch": -1.352052583,
+      "yaw": -1.552322060295768,
+      "pitch": -0.023597769233443915,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.16746438360977,
-          "text": "Next Location",
-          "sceneId": "45"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.76954571658058,
-          "text": "Previous Location",
-          "sceneId": "43"
-        }
-      ],
       "position": {
         "x": 2.773150235,
         "y": -0.208443665,
@@ -1302,25 +589,9 @@
       "type": "equirectangular",
       "panorama": "Images/45.jpg",
       "title": "Location 45",
-      "yaw": -90.80841866,
-      "pitch": -1.941538388,
+      "yaw": -1.584905894146457,
+      "pitch": -0.03388623742446316,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.46529278650829,
-          "text": "Next Location",
-          "sceneId": "46"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.83253561639025,
-          "text": "Previous Location",
-          "sceneId": "44"
-        }
-      ],
       "position": {
         "x": 2.870862853,
         "y": -0.220317344,
@@ -1331,25 +602,9 @@
       "type": "equirectangular",
       "panorama": "Images/46.jpg",
       "title": "Location 46",
-      "yaw": -89.75990738,
-      "pitch": -1.739840908,
+      "yaw": -1.566605920066157,
+      "pitch": -0.03036595230548775,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.15234040571927,
-          "text": "Next Location",
-          "sceneId": "47"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.53470721349171,
-          "text": "Previous Location",
-          "sceneId": "45"
-        }
-      ],
       "position": {
         "x": 3.069057412,
         "y": -0.209299911,
@@ -1360,25 +615,9 @@
       "type": "equirectangular",
       "panorama": "Images/47.jpg",
       "title": "Location 47",
-      "yaw": -87.69452491,
-      "pitch": -1.099462763,
+      "yaw": -1.530558195651684,
+      "pitch": -0.01918924521742409,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.92179426896429,
-          "text": "Next Location",
-          "sceneId": "48"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.84765959428073,
-          "text": "Previous Location",
-          "sceneId": "46"
-        }
-      ],
       "position": {
         "x": 3.25706242,
         "y": -0.212704612,
@@ -1389,25 +628,9 @@
       "type": "equirectangular",
       "panorama": "Images/48.jpg",
       "title": "Location 48",
-      "yaw": -86.23350693,
-      "pitch": -2.655522006,
+      "yaw": -1.5050586214698474,
+      "pitch": -0.046347602363864614,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.70897637082193,
-          "text": "Next Location",
-          "sceneId": "49"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.07820573103572,
-          "text": "Previous Location",
-          "sceneId": "47"
-        }
-      ],
       "position": {
         "x": 3.387558737,
         "y": -0.209277386,
@@ -1418,25 +641,9 @@
       "type": "equirectangular",
       "panorama": "Images/49.jpg",
       "title": "Location 49",
-      "yaw": -68.67955429,
-      "pitch": -1.918320413,
+      "yaw": -1.1986843511626963,
+      "pitch": -0.03348100731506743,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 14.562583901886775,
-          "text": "Next Location",
-          "sceneId": "50"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.29102362917807,
-          "text": "Previous Location",
-          "sceneId": "48"
-        }
-      ],
       "position": {
         "x": 3.576545361,
         "y": -0.211699174,
@@ -1447,25 +654,9 @@
       "type": "equirectangular",
       "panorama": "Images/50.jpg",
       "title": "Location 50",
-      "yaw": -15.39428042,
-      "pitch": -1.1823394,
+      "yaw": -0.2686808793042955,
+      "pitch": -0.020635715406054245,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.9725250188074124,
-          "text": "Next Location",
-          "sceneId": "51"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -165.43741609811323,
-          "text": "Previous Location",
-          "sceneId": "49"
-        }
-      ],
       "position": {
         "x": 3.615657661,
         "y": -0.20640163,
@@ -1476,25 +667,9 @@
       "type": "equirectangular",
       "panorama": "Images/51.jpg",
       "title": "Location 51",
-      "yaw": -3.294702052,
-      "pitch": -1.835844395,
+      "yaw": -0.057503398679613425,
+      "pitch": -0.032041529247033324,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.6488143826128348,
-          "text": "Next Location",
-          "sceneId": "52"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.0274749811926,
-          "text": "Previous Location",
-          "sceneId": "50"
-        }
-      ],
       "position": {
         "x": 3.619482483,
         "y": -0.212151957,
@@ -1505,25 +680,9 @@
       "type": "equirectangular",
       "panorama": "Images/52.jpg",
       "title": "Location 52",
-      "yaw": 0.816660564,
-      "pitch": -2.45179444,
+      "yaw": 0.014253415712993872,
+      "pitch": -0.04279188556009056,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.5094280426827655,
-          "text": "Next Location",
-          "sceneId": "53"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.35118561738716,
-          "text": "Previous Location",
-          "sceneId": "51"
-        }
-      ],
       "position": {
         "x": 3.625460133,
         "y": -0.223794376,
@@ -1534,25 +693,9 @@
       "type": "equirectangular",
       "panorama": "Images/53.jpg",
       "title": "Location 53",
-      "yaw": 2.217460096,
-      "pitch": -3.73898158,
+      "yaw": 0.03870197970678954,
+      "pitch": -0.06525753924241977,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.9984373301784641,
-          "text": "Next Location",
-          "sceneId": "54"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.49057195731726,
-          "text": "Previous Location",
-          "sceneId": "52"
-        }
-      ],
       "position": {
         "x": 3.618347552,
         "y": -0.235309779,
@@ -1563,25 +706,9 @@
       "type": "equirectangular",
       "panorama": "Images/54.jpg",
       "title": "Location 54",
-      "yaw": 1.914132088,
-      "pitch": -5.066001109,
+      "yaw": 0.03340790725367384,
+      "pitch": -0.08841839926173414,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.8304387075603694,
-          "text": "Next Location",
-          "sceneId": "55"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.00156266982154,
-          "text": "Previous Location",
-          "sceneId": "53"
-        }
-      ],
       "position": {
         "x": 3.615425301,
         "y": -0.243539957,
@@ -1592,25 +719,9 @@
       "type": "equirectangular",
       "panorama": "Images/55.jpg",
       "title": "Location 55",
-      "yaw": 1.332190899,
-      "pitch": -5.430974364,
+      "yaw": 0.023251117452653233,
+      "pitch": -0.094788384243205,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.7289456070902784,
-          "text": "Next Location",
-          "sceneId": "56"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.16956129243962,
-          "text": "Previous Location",
-          "sceneId": "54"
-        }
-      ],
       "position": {
         "x": 3.601904067,
         "y": -0.249861446,
@@ -1621,25 +732,9 @@
       "type": "equirectangular",
       "panorama": "Images/56.jpg",
       "title": "Location 56",
-      "yaw": 1.540101925,
-      "pitch": -3.45003519,
+      "yaw": 0.026879849407552774,
+      "pitch": -0.060214473375168144,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.171317073257872,
-          "text": "Next Location",
-          "sceneId": "57"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.27105439290972,
-          "text": "Previous Location",
-          "sceneId": "55"
-        }
-      ],
       "position": {
         "x": 3.607812764,
         "y": -0.253544722,
@@ -1650,25 +745,9 @@
       "type": "equirectangular",
       "panorama": "Images/57.jpg",
       "title": "Location 57",
-      "yaw": 2.086635606,
-      "pitch": -2.901923362,
+      "yaw": 0.03641866161404715,
+      "pitch": -0.0506481173074433,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.4228117447227535,
-          "text": "Next Location",
-          "sceneId": "58"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.82868292674215,
-          "text": "Previous Location",
-          "sceneId": "56"
-        }
-      ],
       "position": {
         "x": 3.61842693,
         "y": -0.27412627,
@@ -1679,25 +758,9 @@
       "type": "equirectangular",
       "panorama": "Images/58.jpg",
       "title": "Location 58",
-      "yaw": 0.393706266,
-      "pitch": -4.272355925,
+      "yaw": 0.006871470627432606,
+      "pitch": -0.07456667770833793,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.044151814058676,
-          "text": "Next Location",
-          "sceneId": "59"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.57718825527724,
-          "text": "Previous Location",
-          "sceneId": "57"
-        }
-      ],
       "position": {
         "x": 3.62911274,
         "y": -0.286948302,
@@ -1708,25 +771,9 @@
       "type": "equirectangular",
       "panorama": "Images/59.jpg",
       "title": "Location 59",
-      "yaw": 0.567354338,
-      "pitch": -3.46365831,
+      "yaw": 0.009902201223572781,
+      "pitch": -0.06045224167356244,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.4335624442249695,
-          "text": "Next Location",
-          "sceneId": "60"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.95584818594133,
-          "text": "Previous Location",
-          "sceneId": "58"
-        }
-      ],
       "position": {
         "x": 3.641090283,
         "y": -0.299021036,
@@ -1737,25 +784,9 @@
       "type": "equirectangular",
       "panorama": "Images/60.jpg",
       "title": "Location 60",
-      "yaw": -0.577199317,
-      "pitch": -5.477100667,
+      "yaw": -0.010074028521912479,
+      "pitch": -0.09559344010232754,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.5629274751972302,
-          "text": "Next Location",
-          "sceneId": "61"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.56643755577505,
-          "text": "Previous Location",
-          "sceneId": "59"
-        }
-      ],
       "position": {
         "x": 3.639389767,
         "y": -0.309191141,
@@ -1766,25 +797,9 @@
       "type": "equirectangular",
       "panorama": "Images/61.jpg",
       "title": "Location 61",
-      "yaw": 0.348299945,
-      "pitch": -6.661467452,
+      "yaw": 0.006078980824765161,
+      "pitch": -0.11626454005183733,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.2999968160331298,
-          "text": "Next Location",
-          "sceneId": "62"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.4370725248028,
-          "text": "Previous Location",
-          "sceneId": "60"
-        }
-      ],
       "position": {
         "x": 3.645685584,
         "y": -0.308015139,
@@ -1795,25 +810,9 @@
       "type": "equirectangular",
       "panorama": "Images/62.jpg",
       "title": "Location 62",
-      "yaw": 1.255082508,
-      "pitch": -4.339544062,
+      "yaw": 0.021905322148788074,
+      "pitch": -0.07573933191726895,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.883759423064016,
-          "text": "Next Location",
-          "sceneId": "63"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.70000318396688,
-          "text": "Previous Location",
-          "sceneId": "61"
-        }
-      ],
       "position": {
         "x": 3.646952901,
         "y": -0.312875796,
@@ -1824,25 +823,9 @@
       "type": "equirectangular",
       "panorama": "Images/63.jpg",
       "title": "Location 63",
-      "yaw": -0.790917218,
-      "pitch": -4.612390903,
+      "yaw": -0.013804109564813762,
+      "pitch": -0.0805014076463844,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.2918096849220126,
-          "text": "Next Location",
-          "sceneId": "64"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.116240576936,
-          "text": "Previous Location",
-          "sceneId": "62"
-        }
-      ],
       "position": {
         "x": 3.655560369,
         "y": -0.336462902,
@@ -1853,25 +836,9 @@
       "type": "equirectangular",
       "panorama": "Images/64.jpg",
       "title": "Location 64",
-      "yaw": 1.488711599,
-      "pitch": -5.898797718,
+      "yaw": 0.02598291901517952,
+      "pitch": -0.10295344208822799,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.4843660963968281,
-          "text": "Next Location",
-          "sceneId": "65"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.708190315078,
-          "text": "Previous Location",
-          "sceneId": "63"
-        }
-      ],
       "position": {
         "x": 3.668471748,
         "y": -0.341502177,
@@ -1882,25 +849,9 @@
       "type": "equirectangular",
       "panorama": "Images/65.jpg",
       "title": "Location 65",
-      "yaw": 2.319668496,
-      "pitch": -4.657982937,
+      "yaw": 0.04048585280998491,
+      "pitch": -0.0812971387523656,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.2802811600784362,
-          "text": "Next Location",
-          "sceneId": "66"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.51563390360317,
-          "text": "Previous Location",
-          "sceneId": "64"
-        }
-      ],
       "position": {
         "x": 3.665582733,
         "y": -0.351933101,
@@ -1911,25 +862,9 @@
       "type": "equirectangular",
       "panorama": "Images/66.jpg",
       "title": "Location 66",
-      "yaw": 3.506701495,
-      "pitch": -3.794856496,
+      "yaw": 0.061203486972357474,
+      "pitch": -0.06623274049589502,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.6769734030031964,
-          "text": "Next Location",
-          "sceneId": "67"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.71971883992157,
-          "text": "Previous Location",
-          "sceneId": "65"
-        }
-      ],
       "position": {
         "x": 3.663937973,
         "y": -0.363814561,
@@ -1940,25 +875,9 @@
       "type": "equirectangular",
       "panorama": "Images/67.jpg",
       "title": "Location 67",
-      "yaw": 3.279156738,
-      "pitch": -5.854581848,
+      "yaw": 0.05723208176705706,
+      "pitch": -0.1021817295750942,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.6553694022310551,
-          "text": "Next Location",
-          "sceneId": "68"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.3230265969968,
-          "text": "Previous Location",
-          "sceneId": "66"
-        }
-      ],
       "position": {
         "x": 3.67131033,
         "y": -0.374874607,
@@ -1969,25 +888,9 @@
       "type": "equirectangular",
       "panorama": "Images/68.jpg",
       "title": "Location 68",
-      "yaw": 2.150063942,
-      "pitch": -5.044889857,
+      "yaw": 0.037525694916308396,
+      "pitch": -0.08804993840511591,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.6538271588098574,
-          "text": "Next Location",
-          "sceneId": "69"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.34463059776894,
-          "text": "Previous Location",
-          "sceneId": "67"
-        }
-      ],
       "position": {
         "x": 3.669423272,
         "y": -0.3731341,
@@ -1998,25 +901,9 @@
       "type": "equirectangular",
       "panorama": "Images/69.jpg",
       "title": "Location 69",
-      "yaw": 1.733885857,
-      "pitch": -5.521843509,
+      "yaw": 0.03026201705841357,
+      "pitch": -0.09637435001192714,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.1993369908182596,
-          "text": "Next Location",
-          "sceneId": "70"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.34617284119014,
-          "text": "Previous Location",
-          "sceneId": "68"
-        }
-      ],
       "position": {
         "x": 3.681243794,
         "y": -0.393722903,
@@ -2027,25 +914,9 @@
       "type": "equirectangular",
       "panorama": "Images/70.jpg",
       "title": "Location 70",
-      "yaw": 5.98499042,
-      "pitch": -6.958445536,
+      "yaw": 0.10445778852931828,
+      "pitch": -0.12144778542390162,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.5509483993857298,
-          "text": "Next Location",
-          "sceneId": "71"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.80066300918173,
-          "text": "Previous Location",
-          "sceneId": "69"
-        }
-      ],
       "position": {
         "x": 3.686382129,
         "y": -0.409825262,
@@ -2056,25 +927,9 @@
       "type": "equirectangular",
       "panorama": "Images/71.jpg",
       "title": "Location 71",
-      "yaw": 8.405488472,
-      "pitch": -7.697015205,
+      "yaw": 0.1467034490748272,
+      "pitch": -0.1343382579033163,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -16.221903242577664,
-          "text": "Next Location",
-          "sceneId": "72"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.4490516006143,
-          "text": "Previous Location",
-          "sceneId": "70"
-        }
-      ],
       "position": {
         "x": 3.685255781,
         "y": -0.406198074,
@@ -2085,25 +940,9 @@
       "type": "equirectangular",
       "panorama": "Images/72.jpg",
       "title": "Location 72",
-      "yaw": 30.22833912,
-      "pitch": -6.306193354,
+      "yaw": 0.5275840450534053,
+      "pitch": -0.11006383729468433,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -61.957332684991286,
-          "text": "Next Location",
-          "sceneId": "73"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 163.77809675742236,
-          "text": "Previous Location",
-          "sceneId": "71"
-        }
-      ],
       "position": {
         "x": 3.638135282,
         "y": -0.421784901,
@@ -2114,25 +953,9 @@
       "type": "equirectangular",
       "panorama": "Images/73.jpg",
       "title": "Location 73",
-      "yaw": 75.03587222,
-      "pitch": -4.083421807,
+      "yaw": 1.309623027344747,
+      "pitch": -0.07126915527988643,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.84336203546162,
-          "text": "Next Location",
-          "sceneId": "74"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 118.04266731500873,
-          "text": "Previous Location",
-          "sceneId": "72"
-        }
-      ],
       "position": {
         "x": 3.498121339,
         "y": -0.416670607,
@@ -2143,25 +966,9 @@
       "type": "equirectangular",
       "panorama": "Images/74.jpg",
       "title": "Location 74",
-      "yaw": 80.91462776,
-      "pitch": -4.377093863,
+      "yaw": 1.412226667437604,
+      "pitch": -0.0763946995781876,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.54558418705277,
-          "text": "Next Location",
-          "sceneId": "75"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.15663796453839,
-          "text": "Previous Location",
-          "sceneId": "73"
-        }
-      ],
       "position": {
         "x": 3.432174686,
         "y": -0.422981582,
@@ -2172,25 +979,9 @@
       "type": "equirectangular",
       "panorama": "Images/75.jpg",
       "title": "Location 75",
-      "yaw": 92.79917363,
-      "pitch": -3.438742795,
+      "yaw": 1.619651122973398,
+      "pitch": -0.0600173839019824,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.05866181953063,
-          "text": "Next Location",
-          "sceneId": "76"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.45441581294723,
-          "text": "Previous Location",
-          "sceneId": "74"
-        }
-      ],
       "position": {
         "x": 3.172372957,
         "y": -0.430745596,
@@ -2201,25 +992,9 @@
       "type": "equirectangular",
       "panorama": "Images/76.jpg",
       "title": "Location 76",
-      "yaw": 93.51897136,
-      "pitch": -2.717659367,
+      "yaw": 1.6322139633102792,
+      "pitch": -0.04743210390181493,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.48024248477358,
-          "text": "Next Location",
-          "sceneId": "77"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.94133818046937,
-          "text": "Previous Location",
-          "sceneId": "75"
-        }
-      ],
       "position": {
         "x": 2.952606122,
         "y": -0.429501957,
@@ -2230,25 +1005,9 @@
       "type": "equirectangular",
       "panorama": "Images/77.jpg",
       "title": "Location 77",
-      "yaw": 94.30240272,
-      "pitch": -2.672713497,
+      "yaw": 1.6458874200056564,
+      "pitch": -0.04664765048514159,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.08093216208691,
-          "text": "Next Location",
-          "sceneId": "78"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.51975751522642,
-          "text": "Previous Location",
-          "sceneId": "76"
-        }
-      ],
       "position": {
         "x": 2.820396288,
         "y": -0.424939085,
@@ -2259,25 +1018,9 @@
       "type": "equirectangular",
       "panorama": "Images/78.jpg",
       "title": "Location 78",
-      "yaw": 99.68581601,
-      "pitch": -3.155103923,
+      "yaw": 1.7398457069117765,
+      "pitch": -0.055066951698939645,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.02981844186363,
-          "text": "Next Location",
-          "sceneId": "79"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.91906783791309,
-          "text": "Previous Location",
-          "sceneId": "77"
-        }
-      ],
       "position": {
         "x": 2.722569691,
         "y": -0.37340902,
@@ -2288,25 +1031,9 @@
       "type": "equirectangular",
       "panorama": "Images/79.jpg",
       "title": "Location 79",
-      "yaw": 98.44612248,
-      "pitch": -1.754716064,
+      "yaw": 1.7182089730976056,
+      "pitch": -0.03062557275443554,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -94.33440377152954,
-          "text": "Next Location",
-          "sceneId": "80"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.97018155813639,
-          "text": "Previous Location",
-          "sceneId": "78"
-        }
-      ],
       "position": {
         "x": 2.53608352,
         "y": -0.305127534,
@@ -2317,25 +1044,9 @@
       "type": "equirectangular",
       "panorama": "Images/80.jpg",
       "title": "Location 80",
-      "yaw": 96.45933955,
-      "pitch": -2.00090757,
+      "yaw": 1.6835330694466855,
+      "pitch": -0.03492242512457892,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.45166630720972,
-          "text": "Next Location",
-          "sceneId": "81"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 85.66559622847046,
-          "text": "Previous Location",
-          "sceneId": "79"
-        }
-      ],
       "position": {
         "x": 2.448087053,
         "y": -0.311579009,
@@ -2346,25 +1057,9 @@
       "type": "equirectangular",
       "panorama": "Images/81.jpg",
       "title": "Location 81",
-      "yaw": 95.43646769,
-      "pitch": -1.015478859,
+      "yaw": 1.665680587663687,
+      "pitch": -0.01772344957394525,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -113.9355435424309,
-          "text": "Next Location",
-          "sceneId": "82"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.54833369279028,
-          "text": "Previous Location",
-          "sceneId": "80"
-        }
-      ],
       "position": {
         "x": 2.365483507,
         "y": -0.363256056,
@@ -2375,25 +1070,9 @@
       "type": "equirectangular",
       "panorama": "Images/82.jpg",
       "title": "Location 82",
-      "yaw": 145.6138401,
-      "pitch": -2.024809913,
+      "yaw": 2.5414409462175493,
+      "pitch": -0.035339599708869934,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -169.96007577981348,
-          "text": "Next Location",
-          "sceneId": "83"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 66.06445645756908,
-          "text": "Previous Location",
-          "sceneId": "81"
-        }
-      ],
       "position": {
         "x": 2.208112283,
         "y": -0.435163681,
@@ -2404,25 +1083,9 @@
       "type": "equirectangular",
       "panorama": "Images/83.jpg",
       "title": "Location 83",
-      "yaw": 170.7331165,
-      "pitch": -3.070383936,
+      "yaw": 2.979855025116057,
+      "pitch": -0.05358830898354285,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -172.98423349771093,
-          "text": "Next Location",
-          "sceneId": "84"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 10.039924220186526,
-          "text": "Previous Location",
-          "sceneId": "82"
-        }
-      ],
       "position": {
         "x": 2.187625165,
         "y": -0.428280448,
@@ -2433,25 +1096,9 @@
       "type": "equirectangular",
       "panorama": "Images/84.jpg",
       "title": "Location 84",
-      "yaw": -176.5262123,
-      "pitch": -2.002586356,
+      "yaw": -3.080963620709512,
+      "pitch": -0.03495172546771531,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 176.06802906479237,
-          "text": "Next Location",
-          "sceneId": "85"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 7.015766502289065,
-          "text": "Previous Location",
-          "sceneId": "83"
-        }
-      ],
       "position": {
         "x": 2.159160035,
         "y": -0.416169924,
@@ -2462,25 +1109,9 @@
       "type": "equirectangular",
       "panorama": "Images/85.jpg",
       "title": "Location 85",
-      "yaw": -177.7516268,
-      "pitch": -2.289782625,
+      "yaw": -3.1023511384361924,
+      "pitch": -0.03996424596120862,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.77012518319358,
-          "text": "Next Location",
-          "sceneId": "86"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -3.9319709352076386,
-          "text": "Previous Location",
-          "sceneId": "84"
-        }
-      ],
       "position": {
         "x": 2.173038266,
         "y": -0.399783735,
@@ -2491,25 +1122,9 @@
       "type": "equirectangular",
       "panorama": "Images/86.jpg",
       "title": "Location 86",
-      "yaw": 179.2835251,
-      "pitch": -0.319385864,
+      "yaw": 3.1290878075768958,
+      "pitch": -0.005574334911126827,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -172.63519744538502,
-          "text": "Next Location",
-          "sceneId": "87"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.22987481680641,
-          "text": "Previous Location",
-          "sceneId": "85"
-        }
-      ],
       "position": {
         "x": 2.167551441,
         "y": -0.357051655,
@@ -2520,25 +1135,9 @@
       "type": "equirectangular",
       "panorama": "Images/87.jpg",
       "title": "Location 87",
-      "yaw": 160.9221642,
-      "pitch": 0.584756565,
+      "yaw": 2.8086216047249466,
+      "pitch": 0.010205927381902234,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -139.46454289574132,
-          "text": "Next Location",
-          "sceneId": "88"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 7.364802554614982,
-          "text": "Previous Location",
-          "sceneId": "86"
-        }
-      ],
       "position": {
         "x": 2.147019152,
         "y": -0.345169786,
@@ -2549,25 +1148,9 @@
       "type": "equirectangular",
       "panorama": "Images/88.jpg",
       "title": "Location 88",
-      "yaw": 125.8001187,
-      "pitch": -0.451402828,
+      "yaw": 2.1956262707146887,
+      "pitch": -0.00787846560141365,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -96.18517349948196,
-          "text": "Next Location",
-          "sceneId": "89"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 40.53545710425869,
-          "text": "Previous Location",
-          "sceneId": "87"
-        }
-      ],
       "position": {
         "x": 2.114651226,
         "y": -0.34823905,
@@ -2578,25 +1161,9 @@
       "type": "equirectangular",
       "panorama": "Images/89.jpg",
       "title": "Location 89",
-      "yaw": 92.67096095,
-      "pitch": -2.902955298,
+      "yaw": 1.6174133895645921,
+      "pitch": -0.050666127988313166,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.8822238142626,
-          "text": "Next Location",
-          "sceneId": "90"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 83.81482650051805,
-          "text": "Previous Location",
-          "sceneId": "88"
-        }
-      ],
       "position": {
         "x": 1.771810211,
         "y": -0.349120094,
@@ -2607,25 +1174,9 @@
       "type": "equirectangular",
       "panorama": "Images/90.jpg",
       "title": "Location 90",
-      "yaw": 91.09222834,
-      "pitch": -4.136460521,
+      "yaw": 1.5898593075114889,
+      "pitch": -0.07219485547021005,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.04906924874278,
-          "text": "Next Location",
-          "sceneId": "91"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.11777618573741,
-          "text": "Previous Location",
-          "sceneId": "89"
-        }
-      ],
       "position": {
         "x": 1.251526069,
         "y": -0.362592344,
@@ -2636,25 +1187,9 @@
       "type": "equirectangular",
       "panorama": "Images/91.jpg",
       "title": "Location 91",
-      "yaw": 90.51744479,
-      "pitch": -2.263741055,
+      "yaw": 1.5798274420776872,
+      "pitch": -0.03950973482232004,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.06625290385554,
-          "text": "Next Location",
-          "sceneId": "92"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.95093075125723,
-          "text": "Previous Location",
-          "sceneId": "90"
-        }
-      ],
       "position": {
         "x": 1.019670783,
         "y": -0.369037725,
@@ -2665,25 +1200,9 @@
       "type": "equirectangular",
       "panorama": "Images/92.jpg",
       "title": "Location 92",
-      "yaw": 92.22005272,
-      "pitch": -4.172539107,
+      "yaw": 1.6095435563267524,
+      "pitch": -0.07282454558537399,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.04799034621348,
-          "text": "Next Location",
-          "sceneId": "93"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.93374709614446,
-          "text": "Previous Location",
-          "sceneId": "91"
-        }
-      ],
       "position": {
         "x": 0.765128791,
         "y": -0.373828703,
@@ -2694,25 +1213,9 @@
       "type": "equirectangular",
       "panorama": "Images/93.jpg",
       "title": "Location 93",
-      "yaw": 99.19048781,
-      "pitch": -3.302062146,
+      "yaw": 1.7312005989437995,
+      "pitch": -0.05763185655316971,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -99.57735142304206,
-          "text": "Next Location",
-          "sceneId": "94"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.95200965378652,
-          "text": "Previous Location",
-          "sceneId": "92"
-        }
-      ],
       "position": {
         "x": 0.370154034,
         "y": -0.339041348,
@@ -2723,25 +1226,9 @@
       "type": "equirectangular",
       "panorama": "Images/94.jpg",
       "title": "Location 94",
-      "yaw": 104.5722697,
-      "pitch": -2.383176279,
+      "yaw": 1.825130412548503,
+      "pitch": -0.041594272723977,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -114.09491601667544,
-          "text": "Next Location",
-          "sceneId": "95"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 80.42264857695794,
-          "text": "Previous Location",
-          "sceneId": "93"
-        }
-      ],
       "position": {
         "x": 0.295459322,
         "y": -0.340269122,
@@ -2752,25 +1239,9 @@
       "type": "equirectangular",
       "panorama": "Images/95.jpg",
       "title": "Location 95",
-      "yaw": 111.5437319,
-      "pitch": -1.945519698,
+      "yaw": 1.9468053816168303,
+      "pitch": -0.03395572439250574,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -135.18927678359452,
-          "text": "Next Location",
-          "sceneId": "96"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 65.90508398332457,
-          "text": "Previous Location",
-          "sceneId": "94"
-        }
-      ],
       "position": {
         "x": 0.271119173,
         "y": -0.342380282,
@@ -2781,25 +1252,9 @@
       "type": "equirectangular",
       "panorama": "Images/96.jpg",
       "title": "Location 96",
-      "yaw": 122.1992774,
-      "pitch": -2.286111601,
+      "yaw": 2.1327797341878956,
+      "pitch": -0.03990017450548889,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -158.57499043550635,
-          "text": "Next Location",
-          "sceneId": "97"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 44.810723216405485,
-          "text": "Previous Location",
-          "sceneId": "95"
-        }
-      ],
       "position": {
         "x": 0.249610721,
         "y": -0.33956321,
@@ -2810,25 +1265,9 @@
       "type": "equirectangular",
       "panorama": "Images/97.jpg",
       "title": "Location 97",
-      "yaw": 155.2230624,
-      "pitch": -5.952253456,
+      "yaw": 2.7091535139086114,
+      "pitch": -0.10388642072041143,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -174.6858742823221,
-          "text": "Next Location",
-          "sceneId": "98"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 21.425009564493664,
-          "text": "Previous Location",
-          "sceneId": "96"
-        }
-      ],
       "position": {
         "x": 0.213543769,
         "y": -0.326524894,
@@ -2839,25 +1278,9 @@
       "type": "equirectangular",
       "panorama": "Images/98.jpg",
       "title": "Location 98",
-      "yaw": 174.2554106,
-      "pitch": -5.02187034,
+      "yaw": 3.0413306543846277,
+      "pitch": -0.0876481720412471,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -175.24224560008622,
-          "text": "Next Location",
-          "sceneId": "99"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 5.314125717677911,
-          "text": "Previous Location",
-          "sceneId": "97"
-        }
-      ],
       "position": {
         "x": 0.190293146,
         "y": -0.315610964,
@@ -2868,25 +1291,9 @@
       "type": "equirectangular",
       "panorama": "Images/99.jpg",
       "title": "Location 99",
-      "yaw": 177.9688225,
-      "pitch": -0.859667358,
+      "yaw": 3.1061419185223658,
+      "pitch": -0.015004025869020816,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.04801763647097,
-          "text": "Next Location",
-          "sceneId": "100"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 4.757754399913767,
-          "text": "Previous Location",
-          "sceneId": "98"
-        }
-      ],
       "position": {
         "x": 0.15249042,
         "y": -0.301133282,
@@ -2897,25 +1304,9 @@
       "type": "equirectangular",
       "panorama": "Images/100.jpg",
       "title": "Location 100",
-      "yaw": 179.8022377,
-      "pitch": -2.310012401,
+      "yaw": 3.1381410503184766,
+      "pitch": -0.04031732215934955,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.36177843022634,
-          "text": "Next Location",
-          "sceneId": "101"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.9519823635290379,
-          "text": "Previous Location",
-          "sceneId": "99"
-        }
-      ],
       "position": {
         "x": 0.146649687,
         "y": -0.2877091,
@@ -2926,25 +1317,9 @@
       "type": "equirectangular",
       "panorama": "Images/101.jpg",
       "title": "Location 101",
-      "yaw": 178.8561812,
-      "pitch": -1.384199137,
+      "yaw": 3.1216292494835827,
+      "pitch": -0.024158832443914063,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.9584401460713,
-          "text": "Next Location",
-          "sceneId": "102"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.6382215697736681,
-          "text": "Previous Location",
-          "sceneId": "100"
-        }
-      ],
       "position": {
         "x": 0.143436068,
         "y": -0.272355789,
@@ -2955,25 +1330,9 @@
       "type": "equirectangular",
       "panorama": "Images/102.jpg",
       "title": "Location 102",
-      "yaw": -178.102235,
-      "pitch": -1.594035301,
+      "yaw": -3.108470405910683,
+      "pitch": -0.027821164395468858,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.44593363724394,
-          "text": "Next Location",
-          "sceneId": "103"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.041559853928717,
-          "text": "Previous Location",
-          "sceneId": "101"
-        }
-      ],
       "position": {
         "x": 0.129021469,
         "y": -0.239804435,
@@ -2984,25 +1343,9 @@
       "type": "equirectangular",
       "panorama": "Images/103.jpg",
       "title": "Location 103",
-      "yaw": -178.1978515,
-      "pitch": -1.124027502,
+      "yaw": -3.1101392286549165,
+      "pitch": -0.019617980792867147,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.09840338716302,
-          "text": "Next Location",
-          "sceneId": "104"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.5540663627560638,
-          "text": "Previous Location",
-          "sceneId": "102"
-        }
-      ],
       "position": {
         "x": 0.13403061,
         "y": -0.245368289,
@@ -3013,25 +1356,9 @@
       "type": "equirectangular",
       "panorama": "Images/104.jpg",
       "title": "Location 104",
-      "yaw": -178.2756413,
-      "pitch": -1.71518279,
+      "yaw": -3.111496916789384,
+      "pitch": -0.029935586959042474,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.65890226513503,
-          "text": "Next Location",
-          "sceneId": "105"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.9015966128369994,
-          "text": "Previous Location",
-          "sceneId": "103"
-        }
-      ],
       "position": {
         "x": 0.117916273,
         "y": -0.233077668,
@@ -3042,25 +1369,9 @@
       "type": "equirectangular",
       "panorama": "Images/105.jpg",
       "title": "Location 105",
-      "yaw": 179.1481671,
-      "pitch": -2.137288719,
+      "yaw": 3.1267253648079816,
+      "pitch": -0.03730272521228189,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -173.09332802752428,
-          "text": "Next Location",
-          "sceneId": "106"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.3410977348649784,
-          "text": "Previous Location",
-          "sceneId": "104"
-        }
-      ],
       "position": {
         "x": 0.1093862,
         "y": -0.216440436,
@@ -3071,25 +1382,9 @@
       "type": "equirectangular",
       "panorama": "Images/106.jpg",
       "title": "Location 106",
-      "yaw": 179.3412061,
-      "pitch": -0.049402354,
+      "yaw": 3.130094530942739,
+      "pitch": -0.0008622337355357908,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.41446615708463,
-          "text": "Next Location",
-          "sceneId": "107"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 6.90667197247574,
-          "text": "Previous Location",
-          "sceneId": "105"
-        }
-      ],
       "position": {
         "x": 0.096066048,
         "y": -0.198345184,
@@ -3100,25 +1395,9 @@
       "type": "equirectangular",
       "panorama": "Images/107.jpg",
       "title": "Location 107",
-      "yaw": -174.7237235,
-      "pitch": 1.694454444,
+      "yaw": -3.0495042564191905,
+      "pitch": 0.029573809072849875,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.1405251846504,
-          "text": "Next Location",
-          "sceneId": "108"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.5855338429153885,
-          "text": "Previous Location",
-          "sceneId": "106"
-        }
-      ],
       "position": {
         "x": 0.083927008,
         "y": -0.185518544,
@@ -3129,25 +1408,9 @@
       "type": "equirectangular",
       "panorama": "Images/108.jpg",
       "title": "Location 108",
-      "yaw": -171.6982211,
-      "pitch": 2.178960902,
+      "yaw": -2.9966992780122004,
+      "pitch": 0.038030042012125495,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.23480997271906,
-          "text": "Next Location",
-          "sceneId": "109"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.8594748153496137,
-          "text": "Previous Location",
-          "sceneId": "107"
-        }
-      ],
       "position": {
         "x": 0.086660094,
         "y": -0.189025708,
@@ -3158,25 +1421,9 @@
       "type": "equirectangular",
       "panorama": "Images/109.jpg",
       "title": "Location 109",
-      "yaw": -156.6028867,
-      "pitch": -0.239878171,
+      "yaw": -2.7332359910426374,
+      "pitch": -0.004186663887611979,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 168.44478408908,
-          "text": "Next Location",
-          "sceneId": "110"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.765190027280946,
-          "text": "Previous Location",
-          "sceneId": "108"
-        }
-      ],
       "position": {
         "x": 0.093725029,
         "y": -0.188268501,
@@ -3187,25 +1434,9 @@
       "type": "equirectangular",
       "panorama": "Images/110.jpg",
       "title": "Location 110",
-      "yaw": -135.7172349,
-      "pitch": -1.680871228,
+      "yaw": -2.368712600707557,
+      "pitch": -0.0293367372306403,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 128.2549417991382,
-          "text": "Next Location",
-          "sceneId": "111"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -11.555215910920003,
-          "text": "Previous Location",
-          "sceneId": "109"
-        }
-      ],
       "position": {
         "x": 0.134313631,
         "y": -0.18662937,
@@ -3216,25 +1447,9 @@
       "type": "equirectangular",
       "panorama": "Images/111.jpg",
       "title": "Location 111",
-      "yaw": -124.6814318,
-      "pitch": -2.934268195,
+      "yaw": -2.17610150101076,
+      "pitch": -0.05121264113930102,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 104.23391447204463,
-          "text": "Next Location",
-          "sceneId": "112"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -51.745058200861806,
-          "text": "Previous Location",
-          "sceneId": "110"
-        }
-      ],
       "position": {
         "x": 0.189287073,
         "y": -0.173450437,
@@ -3245,25 +1460,9 @@
       "type": "equirectangular",
       "panorama": "Images/112.jpg",
       "title": "Location 112",
-      "yaw": -99.7995539,
-      "pitch": -2.44389463,
+      "yaw": -1.7418308075765478,
+      "pitch": -0.04265400786530859,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 100.0302756539094,
-          "text": "Next Location",
-          "sceneId": "113"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -75.76608552795538,
-          "text": "Previous Location",
-          "sceneId": "111"
-        }
-      ],
       "position": {
         "x": 0.447292221,
         "y": -0.160887275,
@@ -3274,25 +1473,9 @@
       "type": "equirectangular",
       "panorama": "Images/113.jpg",
       "title": "Location 113",
-      "yaw": -93.2702916,
-      "pitch": -0.459291724,
+      "yaw": -1.6278736827152098,
+      "pitch": -0.00801615281096106,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.79177070527814,
-          "text": "Next Location",
-          "sceneId": "114"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -79.96972434609062,
-          "text": "Previous Location",
-          "sceneId": "112"
-        }
-      ],
       "position": {
         "x": 0.62436762,
         "y": -0.166049073,
@@ -3303,25 +1486,9 @@
       "type": "equirectangular",
       "panorama": "Images/114.jpg",
       "title": "Location 114",
-      "yaw": -76.04425418,
-      "pitch": -2.923832239,
+      "yaw": -1.3272226126644606,
+      "pitch": -0.05103049934650776,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 31.338427708094265,
-          "text": "Next Location",
-          "sceneId": "115"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.20822929472186,
-          "text": "Previous Location",
-          "sceneId": "113"
-        }
-      ],
       "position": {
         "x": 2.0905711,
         "y": -0.233106636,
@@ -3332,25 +1499,9 @@
       "type": "equirectangular",
       "panorama": "Images/115.jpg",
       "title": "Location 115",
-      "yaw": -18.13871197,
-      "pitch": -2.840157188,
+      "yaw": -0.3165802459474069,
+      "pitch": -0.04957009420478359,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 18.36744261855269,
-          "text": "Next Location",
-          "sceneId": "116"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -148.66157229190574,
-          "text": "Previous Location",
-          "sceneId": "114"
-        }
-      ],
       "position": {
         "x": 2.163686558,
         "y": -0.240317428,
@@ -3361,25 +1512,9 @@
       "type": "equirectangular",
       "panorama": "Images/116.jpg",
       "title": "Location 116",
-      "yaw": 0.468589477,
-      "pitch": -4.644913116,
+      "yaw": 0.00817842921384824,
+      "pitch": -0.0810690273432693,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 2.6100229056403554,
-          "text": "Next Location",
-          "sceneId": "117"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -161.6325573814473,
-          "text": "Previous Location",
-          "sceneId": "115"
-        }
-      ],
       "position": {
         "x": 2.199411882,
         "y": -0.218330857,
@@ -3390,25 +1525,9 @@
       "type": "equirectangular",
       "panorama": "Images/117.jpg",
       "title": "Location 117",
-      "yaw": 0.885964622,
-      "pitch": -0.877288661,
+      "yaw": 0.015462999710086989,
+      "pitch": -0.01531157562486237,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.3877850895828945,
-          "text": "Next Location",
-          "sceneId": "118"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -177.38997709435964,
-          "text": "Previous Location",
-          "sceneId": "116"
-        }
-      ],
       "position": {
         "x": 2.210040353,
         "y": -0.117945786,
@@ -3419,25 +1538,9 @@
       "type": "equirectangular",
       "panorama": "Images/118.jpg",
       "title": "Location 118",
-      "yaw": 2.414113072,
-      "pitch": 0.319730276,
+      "yaw": 0.04213422162183493,
+      "pitch": 0.005580346034510205,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 11.162745247715154,
-          "text": "Next Location",
-          "sceneId": "119"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.61221491041712,
-          "text": "Previous Location",
-          "sceneId": "117"
-        }
-      ],
       "position": {
         "x": 2.214085917,
         "y": -0.130539382,
@@ -3448,25 +1551,9 @@
       "type": "equirectangular",
       "panorama": "Images/119.jpg",
       "title": "Location 119",
-      "yaw": -0.358224314,
-      "pitch": 2.041317644,
+      "yaw": -0.006252193739998018,
+      "pitch": 0.03562771396685347,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.6262878159140837,
-          "text": "Next Location",
-          "sceneId": "120"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -168.83725475228485,
-          "text": "Previous Location",
-          "sceneId": "118"
-        }
-      ],
       "position": {
         "x": 2.232930752,
         "y": -0.177359755,
@@ -3477,25 +1564,9 @@
       "type": "equirectangular",
       "panorama": "Images/120.jpg",
       "title": "Location 120",
-      "yaw": 1.383600319,
-      "pitch": 0.03606171,
+      "yaw": 0.024148381098193856,
+      "pitch": 0.0006293955733993643,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -9.916872156556316,
-          "text": "Next Location",
-          "sceneId": "121"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.37371218408595,
-          "text": "Previous Location",
-          "sceneId": "119"
-        }
-      ],
       "position": {
         "x": 2.234963214,
         "y": -0.231350087,
@@ -3506,25 +1577,9 @@
       "type": "equirectangular",
       "panorama": "Images/121.jpg",
       "title": "Location 121",
-      "yaw": 1.747633545,
-      "pitch": -1.569549618,
+      "yaw": 0.030501959478550486,
+      "pitch": -0.027393808607519256,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.832717308513041,
-          "text": "Next Location",
-          "sceneId": "122"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 170.0831278434437,
-          "text": "Previous Location",
-          "sceneId": "120"
-        }
-      ],
       "position": {
         "x": 2.21535607,
         "y": -0.229229443,
@@ -3535,25 +1590,9 @@
       "type": "equirectangular",
       "panorama": "Images/122.jpg",
       "title": "Location 122",
-      "yaw": 2.472973659,
-      "pitch": -3.893578623,
+      "yaw": 0.043161532664641504,
+      "pitch": -0.06795576665661701,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.0026637011360100653,
-          "text": "Next Location",
-          "sceneId": "123"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.16728269148697,
-          "text": "Previous Location",
-          "sceneId": "121"
-        }
-      ],
       "position": {
         "x": 2.20379671,
         "y": -0.224141623,
@@ -3564,25 +1603,9 @@
       "type": "equirectangular",
       "panorama": "Images/123.jpg",
       "title": "Location 123",
-      "yaw": 9.564478523,
-      "pitch": -5.817420288,
+      "yaw": 0.1669316414626342,
+      "pitch": -0.10153313799791677,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -20.229281081412122,
-          "text": "Next Location",
-          "sceneId": "124"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.997336298864,
-          "text": "Previous Location",
-          "sceneId": "122"
-        }
-      ],
       "position": {
         "x": 2.203778562,
         "y": -0.235751477,
@@ -3593,25 +1616,9 @@
       "type": "equirectangular",
       "panorama": "Images/124.jpg",
       "title": "Location 124",
-      "yaw": 47.05640138,
-      "pitch": -4.841594928,
+      "yaw": 0.8212891382210034,
+      "pitch": -0.0845017725414578,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -75.4642710831037,
-          "text": "Next Location",
-          "sceneId": "125"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 159.77071891858787,
-          "text": "Previous Location",
-          "sceneId": "123"
-        }
-      ],
       "position": {
         "x": 2.125862556,
         "y": -0.24727054,
@@ -3622,25 +1629,9 @@
       "type": "equirectangular",
       "panorama": "Images/125.jpg",
       "title": "Location 125",
-      "yaw": 85.7198016,
-      "pitch": -3.614244301,
+      "yaw": 1.4960927720763033,
+      "pitch": -0.06308046302389098,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.82967219465955,
-          "text": "Next Location",
-          "sceneId": "126"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 104.5357289168963,
-          "text": "Previous Location",
-          "sceneId": "124"
-        }
-      ],
       "position": {
         "x": 1.743690581,
         "y": -0.227673632,
@@ -3651,25 +1642,9 @@
       "type": "equirectangular",
       "panorama": "Images/126.jpg",
       "title": "Location 126",
-      "yaw": 88.94131377,
-      "pitch": -2.927168041,
+      "yaw": 1.5523187663358704,
+      "pitch": -0.05108872007460237,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.32392012923093,
-          "text": "Next Location",
-          "sceneId": "127"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.17032780534046,
-          "text": "Previous Location",
-          "sceneId": "125"
-        }
-      ],
       "position": {
         "x": 1.360198478,
         "y": -0.236751072,
@@ -3680,25 +1655,9 @@
       "type": "equirectangular",
       "panorama": "Images/127.jpg",
       "title": "Location 127",
-      "yaw": 89.90424634,
-      "pitch": -3.022170756,
+      "yaw": 1.5691251101570614,
+      "pitch": -0.052746830249686176,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.98210678307265,
-          "text": "Next Location",
-          "sceneId": "128"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.67607987076907,
-          "text": "Previous Location",
-          "sceneId": "126"
-        }
-      ],
       "position": {
         "x": 0.773197394,
         "y": -0.236736127,
@@ -3709,25 +1668,9 @@
       "type": "equirectangular",
       "panorama": "Images/128.jpg",
       "title": "Location 128",
-      "yaw": 85.09662034,
-      "pitch": -4.124900484,
+      "yaw": 1.4852162072525765,
+      "pitch": -0.07199309476290769,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -39.120369368835526,
-          "text": "Next Location",
-          "sceneId": "129"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.01789321692735,
-          "text": "Previous Location",
-          "sceneId": "127"
-        }
-      ],
       "position": {
         "x": 0.338849239,
         "y": -0.245882005,
@@ -3738,25 +1681,9 @@
       "type": "equirectangular",
       "panorama": "Images/129.jpg",
       "title": "Location 129",
-      "yaw": 12.24992761,
-      "pitch": -1.011520828,
+      "yaw": 0.21380156992545984,
+      "pitch": -0.01765436890109925,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.7755032544490319,
-          "text": "Next Location",
-          "sceneId": "130"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 140.8796306311645,
-          "text": "Previous Location",
-          "sceneId": "128"
-        }
-      ],
       "position": {
         "x": 0.151491296,
         "y": -0.263679209,
@@ -3767,25 +1694,9 @@
       "type": "equirectangular",
       "panorama": "Images/130.jpg",
       "title": "Location 130",
-      "yaw": -0.069913578,
-      "pitch": -5.874027468,
+      "yaw": -0.0012202221279498722,
+      "pitch": -0.10252111966918587,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 5.430542292171736,
-          "text": "Next Location",
-          "sceneId": "131"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.224496745551,
-          "text": "Previous Location",
-          "sceneId": "129"
-        }
-      ],
       "position": {
         "x": 0.137345969,
         "y": -0.321774186,
@@ -3796,25 +1707,9 @@
       "type": "equirectangular",
       "panorama": "Images/131.jpg",
       "title": "Location 131",
-      "yaw": -42.66673916,
-      "pitch": -5.236518758,
+      "yaw": -0.7446750794315997,
+      "pitch": -0.09139449366954415,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.59974242788907,
-          "text": "Next Location",
-          "sceneId": "132"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -174.56945770782826,
-          "text": "Previous Location",
-          "sceneId": "130"
-        }
-      ],
       "position": {
         "x": 0.173649948,
         "y": -0.335888215,
@@ -3825,25 +1720,9 @@
       "type": "equirectangular",
       "panorama": "Images/132.jpg",
       "title": "Location 132",
-      "yaw": -87.06758361,
-      "pitch": -1.857945705,
+      "yaw": -1.5196160057499504,
+      "pitch": -0.03242726987553727,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.79784410186706,
-          "text": "Next Location",
-          "sceneId": "133"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.40025757211095,
-          "text": "Previous Location",
-          "sceneId": "131"
-        }
-      ],
       "position": {
         "x": 2.166211834,
         "y": -0.330334873,
@@ -3854,25 +1733,9 @@
       "type": "equirectangular",
       "panorama": "Images/133.jpg",
       "title": "Location 133",
-      "yaw": -100.8500266,
-      "pitch": -1.807598053,
+      "yaw": -1.7601650148938626,
+      "pitch": -0.03154853757748896,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 103.77424509149662,
-          "text": "Next Location",
-          "sceneId": "134"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.20215589813296,
-          "text": "Previous Location",
-          "sceneId": "132"
-        }
-      ],
       "position": {
         "x": 2.576305687,
         "y": -0.333383304,
@@ -3883,25 +1746,9 @@
       "type": "equirectangular",
       "panorama": "Images/134.jpg",
       "title": "Location 134",
-      "yaw": -123.9277016,
-      "pitch": -4.057034709,
+      "yaw": -2.162946427349045,
+      "pitch": -0.07080861353974002,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.26492095957852,
-          "text": "Next Location",
-          "sceneId": "135"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -76.22575490850338,
-          "text": "Previous Location",
-          "sceneId": "133"
-        }
-      ],
       "position": {
         "x": 2.637182777,
         "y": -0.334613336,
@@ -3912,25 +1759,9 @@
       "type": "equirectangular",
       "panorama": "Images/135.jpg",
       "title": "Location 135",
-      "yaw": -177.4199075,
-      "pitch": -2.147656232,
+      "yaw": -3.096561544458781,
+      "pitch": -0.037483672449375206,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.41196705381853,
-          "text": "Next Location",
-          "sceneId": "136"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.7350790404214728,
-          "text": "Previous Location",
-          "sceneId": "134"
-        }
-      ],
       "position": {
         "x": 2.641230594,
         "y": -0.308713672,
@@ -3941,25 +1772,9 @@
       "type": "equirectangular",
       "panorama": "Images/136.jpg",
       "title": "Location 136",
-      "yaw": -178.0981858,
-      "pitch": -0.865032544,
+      "yaw": -3.1083997340386116,
+      "pitch": -0.015097666029702719,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.7010081635236,
-          "text": "Next Location",
-          "sceneId": "137"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.5880329461814724,
-          "text": "Previous Location",
-          "sceneId": "135"
-        }
-      ],
       "position": {
         "x": 2.656143332,
         "y": -0.310196441,
@@ -3970,25 +1785,9 @@
       "type": "equirectangular",
       "panorama": "Images/137.jpg",
       "title": "Location 137",
-      "yaw": -178.7395891,
-      "pitch": -0.817028396,
+      "yaw": -3.119594333456768,
+      "pitch": -0.01425983559248807,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.29276460458038,
-          "text": "Next Location",
-          "sceneId": "138"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.298991836476396,
-          "text": "Previous Location",
-          "sceneId": "136"
-        }
-      ],
       "position": {
         "x": 2.647524499,
         "y": -0.321478527,
@@ -3999,25 +1798,9 @@
       "type": "equirectangular",
       "panorama": "Images/138.jpg",
       "title": "Location 138",
-      "yaw": 179.7350255,
-      "pitch": 0.896528446,
+      "yaw": 3.1369679761309675,
+      "pitch": 0.015647373220488186,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.2211013746927,
-          "text": "Next Location",
-          "sceneId": "139"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.707235395419636,
-          "text": "Previous Location",
-          "sceneId": "137"
-        }
-      ],
       "position": {
         "x": 2.633579291,
         "y": -0.321823321,
@@ -4028,25 +1811,9 @@
       "type": "equirectangular",
       "panorama": "Images/139.jpg",
       "title": "Location 139",
-      "yaw": -167.296994,
-      "pitch": 1.788594565,
+      "yaw": -2.9198833739891987,
+      "pitch": 0.03121686414252573,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.8902526827439,
-          "text": "Next Location",
-          "sceneId": "140"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.778898625307333,
-          "text": "Previous Location",
-          "sceneId": "138"
-        }
-      ],
       "position": {
         "x": 2.624939438,
         "y": -0.282435678,
@@ -4057,25 +1824,9 @@
       "type": "equirectangular",
       "panorama": "Images/140.jpg",
       "title": "Location 140",
-      "yaw": -155.0298256,
-      "pitch": 0.436282315,
+      "yaw": -2.7057808955125937,
+      "pitch": 0.007614562864973044,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 105.42047959848006,
-          "text": "Next Location",
-          "sceneId": "141"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.1097473172560894,
-          "text": "Previous Location",
-          "sceneId": "139"
-        }
-      ],
       "position": {
         "x": 2.626826351,
         "y": -0.249463972,
@@ -4086,25 +1837,9 @@
       "type": "equirectangular",
       "panorama": "Images/141.jpg",
       "title": "Location 141",
-      "yaw": -101.1698621,
-      "pitch": -1.589206315,
+      "yaw": -1.7657471974336247,
+      "pitch": -0.027736882690236147,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.15206721773902,
-          "text": "Next Location",
-          "sceneId": "142"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -74.57952040151994,
-          "text": "Previous Location",
-          "sceneId": "140"
-        }
-      ],
       "position": {
         "x": 2.81731319,
         "y": -0.19450542,
@@ -4115,25 +1850,9 @@
       "type": "equirectangular",
       "panorama": "Images/142.jpg",
       "title": "Location 142",
-      "yaw": -87.87517223,
-      "pitch": -2.904859846,
+      "yaw": -1.5337110861705878,
+      "pitch": -0.050699368621675435,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 84.4132915032261,
-          "text": "Next Location",
-          "sceneId": "143"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.847932782261,
-          "text": "Previous Location",
-          "sceneId": "141"
-        }
-      ],
       "position": {
         "x": 3.062318628,
         "y": -0.225168274,
@@ -4144,25 +1863,9 @@
       "type": "equirectangular",
       "panorama": "Images/143.jpg",
       "title": "Location 143",
-      "yaw": -90.14441913,
-      "pitch": -2.016490693,
+      "yaw": -1.5733169161162623,
+      "pitch": -0.035194401928672174,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 104.83558412278457,
-          "text": "Next Location",
-          "sceneId": "144"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -95.5867084967739,
-          "text": "Previous Location",
-          "sceneId": "142"
-        }
-      ],
       "position": {
         "x": 3.349012943,
         "y": -0.2902218,
@@ -4173,25 +1876,9 @@
       "type": "equirectangular",
       "panorama": "Images/144.jpg",
       "title": "Location 144",
-      "yaw": -139.3432887,
-      "pitch": -2.495069149,
+      "yaw": -2.431999178372009,
+      "pitch": -0.04354717171498298,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -178.50428220460867,
-          "text": "Next Location",
-          "sceneId": "145"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -75.16441587721543,
-          "text": "Previous Location",
-          "sceneId": "143"
-        }
-      ],
       "position": {
         "x": 3.643209455,
         "y": -0.283623377,
@@ -4202,25 +1889,9 @@
       "type": "equirectangular",
       "panorama": "Images/145.jpg",
       "title": "Location 145",
-      "yaw": 176.4767242,
-      "pitch": -2.141970848,
+      "yaw": 3.080099890423956,
+      "pitch": -0.037384443779335,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.1703676745032,
-          "text": "Next Location",
-          "sceneId": "146"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 1.4957177953913277,
-          "text": "Previous Location",
-          "sceneId": "144"
-        }
-      ],
       "position": {
         "x": 3.633124462,
         "y": -0.2625061,
@@ -4231,25 +1902,9 @@
       "type": "equirectangular",
       "panorama": "Images/146.jpg",
       "title": "Location 146",
-      "yaw": 178.9061241,
-      "pitch": 0.227858312,
+      "yaw": 3.122500917526577,
+      "pitch": 0.003976877772436506,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -171.06960467044945,
-          "text": "Next Location",
-          "sceneId": "147"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.8296323254968004,
-          "text": "Previous Location",
-          "sceneId": "145"
-        }
-      ],
       "position": {
         "x": 3.645624813,
         "y": -0.234268233,
@@ -4260,25 +1915,9 @@
       "type": "equirectangular",
       "panorama": "Images/147.jpg",
       "title": "Location 147",
-      "yaw": 135.9260521,
-      "pitch": 0.727636864,
+      "yaw": 2.3723571483823527,
+      "pitch": 0.012699659035686197,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.35237907009417,
-          "text": "Next Location",
-          "sceneId": "148"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 8.930395329550556,
-          "text": "Previous Location",
-          "sceneId": "146"
-        }
-      ],
       "position": {
         "x": 3.583928041,
         "y": -0.220766223,
@@ -4289,25 +1928,9 @@
       "type": "equirectangular",
       "panorama": "Images/148.jpg",
       "title": "Location 148",
-      "yaw": 78.20751211,
-      "pitch": -3.331027063,
+      "yaw": 1.3649785861128376,
+      "pitch": -0.058137389722386586,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -3.8537705880547994,
-          "text": "Next Location",
-          "sceneId": "149"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.64762092990584,
-          "text": "Previous Location",
-          "sceneId": "147"
-        }
-      ],
       "position": {
         "x": 2.288250821,
         "y": -0.211166728,
@@ -4318,25 +1941,9 @@
       "type": "equirectangular",
       "panorama": "Images/149.jpg",
       "title": "Location 149",
-      "yaw": 20.33656358,
-      "pitch": -6.192614531,
+      "yaw": 0.3549399930121652,
+      "pitch": -0.10808151287279447,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -77.994522684064,
-          "text": "Next Location",
-          "sceneId": "150"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 176.1462294119452,
-          "text": "Previous Location",
-          "sceneId": "148"
-        }
-      ],
       "position": {
         "x": 2.176316232,
         "y": -0.246252615,
@@ -4347,25 +1954,9 @@
       "type": "equirectangular",
       "panorama": "Images/150.jpg",
       "title": "Location 150",
-      "yaw": 29.4305963,
-      "pitch": -1.775586948,
+      "yaw": 0.5136608062602609,
+      "pitch": -0.030989838398037345,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.5485678709435649,
-          "text": "Next Location",
-          "sceneId": "151"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 102.00547731593602,
-          "text": "Previous Location",
-          "sceneId": "149"
-        }
-      ],
       "position": {
         "x": 1.255499876,
         "y": -0.240461953,
@@ -4376,25 +1967,9 @@
       "type": "equirectangular",
       "panorama": "Images/151.jpg",
       "title": "Location 151",
-      "yaw": -2.058019275,
-      "pitch": -2.449915137,
+      "yaw": -0.03591921241825662,
+      "pitch": -0.042759085535097954,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 0.6876949191519238,
-          "text": "Next Location",
-          "sceneId": "152"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.45143212905646,
-          "text": "Previous Location",
-          "sceneId": "150"
-        }
-      ],
       "position": {
         "x": 1.248980711,
         "y": -0.268523182,
@@ -4405,25 +1980,9 @@
       "type": "equirectangular",
       "panorama": "Images/152.jpg",
       "title": "Location 152",
-      "yaw": -20.43560338,
-      "pitch": -6.515196578,
+      "yaw": -0.3566685636126819,
+      "pitch": -0.11371163170076756,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 71.98704039234919,
-          "text": "Next Location",
-          "sceneId": "153"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -179.3123050808481,
-          "text": "Previous Location",
-          "sceneId": "151"
-        }
-      ],
       "position": {
         "x": 1.25833976,
         "y": -0.327257245,
@@ -4434,25 +1993,9 @@
       "type": "equirectangular",
       "panorama": "Images/153.jpg",
       "title": "Location 153",
-      "yaw": -27.04879001,
-      "pitch": -2.891602257,
+      "yaw": -0.47209044435504993,
+      "pitch": -0.05046798004274925,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.6456077587215976,
-          "text": "Next Location",
-          "sceneId": "154"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -108.0129596076508,
-          "text": "Previous Location",
-          "sceneId": "152"
-        }
-      ],
       "position": {
         "x": 2.180343445,
         "y": -0.334194165,
@@ -4463,25 +2006,9 @@
       "type": "equirectangular",
       "panorama": "Images/154.jpg",
       "title": "Location 154",
-      "yaw": 2.522980929,
-      "pitch": -3.741727903,
+      "yaw": 0.044034324176075286,
+      "pitch": -0.06530547162109301,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.3688760411969105,
-          "text": "Next Location",
-          "sceneId": "155"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.35439224127842,
-          "text": "Previous Location",
-          "sceneId": "153"
-        }
-      ],
       "position": {
         "x": 2.215159873,
         "y": -0.41117383,
@@ -4492,25 +2019,9 @@
       "type": "equirectangular",
       "panorama": "Images/155.jpg",
       "title": "Location 155",
-      "yaw": -49.94427885,
-      "pitch": -4.715779329,
+      "yaw": -0.8716921084666672,
+      "pitch": -0.08230587608853891,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.69813875376704,
-          "text": "Next Location",
-          "sceneId": "156"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.6311239588031,
-          "text": "Previous Location",
-          "sceneId": "154"
-        }
-      ],
       "position": {
         "x": 2.211731034,
         "y": -0.339824009,
@@ -4521,25 +2032,9 @@
       "type": "equirectangular",
       "panorama": "Images/156.jpg",
       "title": "Location 156",
-      "yaw": -88.44156288,
-      "pitch": -4.702033473,
+      "yaw": -1.5435964678655987,
+      "pitch": -0.0820659656428339,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.84527920732567,
-          "text": "Next Location",
-          "sceneId": "157"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.30186124623297,
-          "text": "Previous Location",
-          "sceneId": "155"
-        }
-      ],
       "position": {
         "x": 2.57876857,
         "y": -0.338943613,
@@ -4550,25 +2045,9 @@
       "type": "equirectangular",
       "panorama": "Images/157.jpg",
       "title": "Location 157",
-      "yaw": -117.3157477,
-      "pitch": -3.54701476,
+      "yaw": -2.0475460618039647,
+      "pitch": -0.061907086178836467,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 167.80951512644205,
-          "text": "Next Location",
-          "sceneId": "158"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.15472079267433,
-          "text": "Previous Location",
-          "sceneId": "156"
-        }
-      ],
       "position": {
         "x": 3.539373643,
         "y": -0.432840061,
@@ -4579,25 +2058,9 @@
       "type": "equirectangular",
       "panorama": "Images/158.jpg",
       "title": "Location 158",
-      "yaw": -179.3502906,
-      "pitch": -3.659863588,
+      "yaw": -3.1302530853786363,
+      "pitch": -0.06387666978445324,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 179.17465609736377,
-          "text": "Next Location",
-          "sceneId": "159"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -12.190484873557953,
-          "text": "Previous Location",
-          "sceneId": "157"
-        }
-      ],
       "position": {
         "x": 3.675557093,
         "y": -0.388287711,
@@ -4608,25 +2071,9 @@
       "type": "equirectangular",
       "panorama": "Images/159.jpg",
       "title": "Location 159",
-      "yaw": -177.203137,
-      "pitch": -0.986472068,
+      "yaw": -3.092778185512587,
+      "pitch": -0.017217185565557392,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 177.44770563130166,
-          "text": "Next Location",
-          "sceneId": "160"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -0.8253439026362419,
-          "text": "Previous Location",
-          "sceneId": "158"
-        }
-      ],
       "position": {
         "x": 3.684252307,
         "y": -0.365697426,
@@ -4637,25 +2084,9 @@
       "type": "equirectangular",
       "panorama": "Images/160.jpg",
       "title": "Location 160",
-      "yaw": -179.71468,
-      "pitch": -0.788930456,
+      "yaw": -3.136612880168003,
+      "pitch": -0.013769434026460253,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.7609479395265,
-          "text": "Next Location",
-          "sceneId": "161"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -2.5522943686983623,
-          "text": "Previous Location",
-          "sceneId": "159"
-        }
-      ],
       "position": {
         "x": 3.71134954,
         "y": -0.330990693,
@@ -4666,25 +2097,9 @@
       "type": "equirectangular",
       "panorama": "Images/161.jpg",
       "title": "Location 161",
-      "yaw": 177.7208556,
-      "pitch": 0.628667934,
+      "yaw": 3.1018140796814024,
+      "pitch": 0.010972325350010406,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -176.95864900408037,
-          "text": "Next Location",
-          "sceneId": "162"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.2390520604735038,
-          "text": "Previous Location",
-          "sceneId": "160"
-        }
-      ],
       "position": {
         "x": 3.723911793,
         "y": -0.302774453,
@@ -4695,25 +2110,9 @@
       "type": "equirectangular",
       "panorama": "Images/162.jpg",
       "title": "Location 162",
-      "yaw": 152.7125202,
-      "pitch": 2.244004406,
+      "yaw": 2.6653362865083494,
+      "pitch": 0.0391652653139596,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -111.20035769943411,
-          "text": "Next Location",
-          "sceneId": "163"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 3.041350995919614,
-          "text": "Previous Location",
-          "sceneId": "161"
-        }
-      ],
       "position": {
         "x": 3.701816262,
         "y": -0.290563109,
@@ -4724,25 +2123,9 @@
       "type": "equirectangular",
       "panorama": "Images/163.jpg",
       "title": "Location 163",
-      "yaw": 92.49043932,
-      "pitch": -2.498916877,
+      "yaw": 1.6142626927500252,
+      "pitch": -0.043614327237304164,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.29418722235054,
-          "text": "Next Location",
-          "sceneId": "164"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 68.79964230056589,
-          "text": "Previous Location",
-          "sceneId": "162"
-        }
-      ],
       "position": {
         "x": 3.429587253,
         "y": -0.293023544,
@@ -4753,25 +2136,9 @@
       "type": "equirectangular",
       "panorama": "Images/164.jpg",
       "title": "Location 164",
-      "yaw": 89.19663896,
-      "pitch": -3.959092532,
+      "yaw": 1.5567750315646507,
+      "pitch": -0.06909920007451896,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.55036337823088,
-          "text": "Next Location",
-          "sceneId": "165"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.70581277764947,
-          "text": "Previous Location",
-          "sceneId": "163"
-        }
-      ],
       "position": {
         "x": 3.187969765,
         "y": -0.228701746,
@@ -4782,25 +2149,9 @@
       "type": "equirectangular",
       "panorama": "Images/165.jpg",
       "title": "Location 165",
-      "yaw": 85.32798238,
-      "pitch": -0.501126488,
+      "yaw": 1.4892542366147072,
+      "pitch": -0.008746307184555855,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.48527305572424,
-          "text": "Next Location",
-          "sceneId": "166"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.44963662176913,
-          "text": "Previous Location",
-          "sceneId": "164"
-        }
-      ],
       "position": {
         "x": 2.821756905,
         "y": -0.239350913,
@@ -4811,25 +2162,9 @@
       "type": "equirectangular",
       "panorama": "Images/166.jpg",
       "title": "Location 166",
-      "yaw": 88.82507381,
-      "pitch": -1.820196949,
+      "yaw": 1.5502899963114842,
+      "pitch": -0.03176842979480531,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.74164693118956,
-          "text": "Next Location",
-          "sceneId": "167"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.51472694427576,
-          "text": "Previous Location",
-          "sceneId": "165"
-        }
-      ],
       "position": {
         "x": 2.350025439,
         "y": -0.283077576,
@@ -4840,25 +2175,9 @@
       "type": "equirectangular",
       "panorama": "Images/167.jpg",
       "title": "Location 167",
-      "yaw": 83.66177123,
-      "pitch": -1.648152381,
+      "yaw": 1.4601733660137661,
+      "pitch": -0.028765685623034033,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -83.61142350507235,
-          "text": "Next Location",
-          "sceneId": "168"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.25835306881044,
-          "text": "Previous Location",
-          "sceneId": "166"
-        }
-      ],
       "position": {
         "x": 1.923084138,
         "y": -0.256716733,
@@ -4869,25 +2188,9 @@
       "type": "equirectangular",
       "panorama": "Images/168.jpg",
       "title": "Location 168",
-      "yaw": 85.66248938,
-      "pitch": -2.293631653,
+      "yaw": 1.495092485135676,
+      "pitch": -0.040031424172810075,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.27428930089931,
-          "text": "Next Location",
-          "sceneId": "169"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 96.38857649492766,
-          "text": "Previous Location",
-          "sceneId": "167"
-        }
-      ],
       "position": {
         "x": 1.464938749,
         "y": -0.225840833,
@@ -4898,25 +2201,9 @@
       "type": "equirectangular",
       "panorama": "Images/169.jpg",
       "title": "Location 169",
-      "yaw": 87.92801099,
-      "pitch": -3.5433001,
+      "yaw": 1.534633296505259,
+      "pitch": -0.061842253131244335,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.69266972517842,
-          "text": "Next Location",
-          "sceneId": "170"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.72571069910069,
-          "text": "Previous Location",
-          "sceneId": "168"
-        }
-      ],
       "position": {
         "x": 0.905541143,
         "y": -0.238275523,
@@ -4927,25 +2214,9 @@
       "type": "equirectangular",
       "panorama": "Images/170.jpg",
       "title": "Location 170",
-      "yaw": 61.73783078,
-      "pitch": -3.937266064,
+      "yaw": 1.077528420150099,
+      "pitch": -0.06871825634383778,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -1.5303271408947259,
-          "text": "Next Location",
-          "sceneId": "171"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.30733027482158,
-          "text": "Previous Location",
-          "sceneId": "169"
-        }
-      ],
       "position": {
         "x": 0.246873487,
         "y": -0.254425134,
@@ -4956,25 +2227,9 @@
       "type": "equirectangular",
       "panorama": "Images/171.jpg",
       "title": "Location 171",
-      "yaw": 6.221813187,
-      "pitch": -5.476451217,
+      "yaw": 0.10859112555715167,
+      "pitch": -0.09558210506150046,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -32.05487399754512,
-          "text": "Next Location",
-          "sceneId": "172"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 178.4696728591053,
-          "text": "Previous Location",
-          "sceneId": "170"
-        }
-      ],
       "position": {
         "x": 0.200988487,
         "y": -0.342304959,
@@ -4985,25 +2240,9 @@
       "type": "equirectangular",
       "panorama": "Images/172.jpg",
       "title": "Location 172",
-      "yaw": 46.974475,
-      "pitch": -3.987813258,
+      "yaw": 0.8198592531457634,
+      "pitch": -0.06960047130678211,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -45.04870813755242,
-          "text": "Next Location",
-          "sceneId": "173"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 147.94512600245488,
-          "text": "Previous Location",
-          "sceneId": "171"
-        }
-      ],
       "position": {
         "x": -0.072136949,
         "y": -0.364957177,
@@ -5014,25 +2253,9 @@
       "type": "equirectangular",
       "panorama": "Images/173.jpg",
       "title": "Location 173",
-      "yaw": 52.19924015,
-      "pitch": -5.125806598,
+      "yaw": 0.9110486076567188,
+      "pitch": -0.08946220195554938,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -50.65435132107556,
-          "text": "Next Location",
-          "sceneId": "174"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 134.9512918624476,
-          "text": "Previous Location",
-          "sceneId": "172"
-        }
-      ],
       "position": {
         "x": -0.281212111,
         "y": -0.376798009,
@@ -5043,25 +2266,9 @@
       "type": "equirectangular",
       "panorama": "Images/174.jpg",
       "title": "Location 174",
-      "yaw": 52.22112151,
-      "pitch": -4.753766925,
+      "yaw": 0.911430509433533,
+      "pitch": -0.08296888471365634,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -47.53108824973057,
-          "text": "Next Location",
-          "sceneId": "175"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 129.34564867892445,
-          "text": "Previous Location",
-          "sceneId": "173"
-        }
-      ],
       "position": {
         "x": -0.361245627,
         "y": -0.397731937,
@@ -5072,25 +2279,9 @@
       "type": "equirectangular",
       "panorama": "Images/175.jpg",
       "title": "Location 175",
-      "yaw": 56.59621718,
-      "pitch": -3.558826338,
+      "yaw": 0.9877903339647802,
+      "pitch": -0.062113237104792586,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -60.68145809861824,
-          "text": "Next Location",
-          "sceneId": "176"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 132.46891175026943,
-          "text": "Previous Location",
-          "sceneId": "174"
-        }
-      ],
       "position": {
         "x": -0.472951108,
         "y": -0.401315623,
@@ -5101,25 +2292,9 @@
       "type": "equirectangular",
       "panorama": "Images/176.jpg",
       "title": "Location 176",
-      "yaw": 70.02458151,
-      "pitch": -3.704019261,
+      "yaw": 1.2221595046806426,
+      "pitch": -0.0646473316617372,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -82.83244072092371,
-          "text": "Next Location",
-          "sceneId": "177"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 119.31854190138175,
-          "text": "Previous Location",
-          "sceneId": "175"
-        }
-      ],
       "position": {
         "x": -0.595273781,
         "y": -0.416274071,
@@ -5130,25 +2305,9 @@
       "type": "equirectangular",
       "panorama": "Images/177.jpg",
       "title": "Location 177",
-      "yaw": 86.07664151,
-      "pitch": -2.783156177,
+      "yaw": 1.5023208034083235,
+      "pitch": -0.04857523888586808,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.5820194020139,
-          "text": "Next Location",
-          "sceneId": "178"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 97.1675592790763,
-          "text": "Previous Location",
-          "sceneId": "176"
-        }
-      ],
       "position": {
         "x": -0.964190836,
         "y": -0.414917981,
@@ -5159,25 +2318,9 @@
       "type": "equirectangular",
       "panorama": "Images/178.jpg",
       "title": "Location 178",
-      "yaw": 87.78427727,
-      "pitch": -4.17339972,
+      "yaw": 1.5321246698451194,
+      "pitch": -0.07283956611580944,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.29906850521917,
-          "text": "Next Location",
-          "sceneId": "179"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.4179805979861,
-          "text": "Previous Location",
-          "sceneId": "177"
-        }
-      ],
       "position": {
         "x": -1.066136187,
         "y": -0.41517912,
@@ -5188,25 +2331,9 @@
       "type": "equirectangular",
       "panorama": "Images/179.jpg",
       "title": "Location 179",
-      "yaw": 89.65685155,
-      "pitch": -4.677430997,
+      "yaw": 1.5648072565192814,
+      "pitch": -0.081636571432491,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.22903665377586,
-          "text": "Next Location",
-          "sceneId": "180"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.70093149478083,
-          "text": "Previous Location",
-          "sceneId": "178"
-        }
-      ],
       "position": {
         "x": -1.172330378,
         "y": -0.432473988,
@@ -5217,25 +2344,9 @@
       "type": "equirectangular",
       "panorama": "Images/180.jpg",
       "title": "Location 180",
-      "yaw": 89.23737175,
-      "pitch": -4.570586445,
+      "yaw": 1.557485952863674,
+      "pitch": -0.07977178221227271,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -94.31714001595616,
-          "text": "Next Location",
-          "sceneId": "181"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.77096334622414,
-          "text": "Previous Location",
-          "sceneId": "179"
-        }
-      ],
       "position": {
         "x": -1.281029766,
         "y": -0.419409308,
@@ -5246,25 +2357,9 @@
       "type": "equirectangular",
       "panorama": "Images/181.jpg",
       "title": "Location 181",
-      "yaw": 89.14944417,
-      "pitch": -4.494310891,
+      "yaw": 1.5559513270893635,
+      "pitch": -0.07844052265618998,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.7325639271866,
-          "text": "Next Location",
-          "sceneId": "182"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 85.68285998404386,
-          "text": "Previous Location",
-          "sceneId": "180"
-        }
-      ],
       "position": {
         "x": -1.333498036,
         "y": -0.420066012,
@@ -5275,25 +2370,9 @@
       "type": "equirectangular",
       "panorama": "Images/182.jpg",
       "title": "Location 182",
-      "yaw": 88.99276424,
-      "pitch": -4.035304648,
+      "yaw": 1.5532167464390692,
+      "pitch": -0.07042935242863081,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.36230042927279,
-          "text": "Next Location",
-          "sceneId": "183"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.26743607281341,
-          "text": "Previous Location",
-          "sceneId": "181"
-        }
-      ],
       "position": {
         "x": -1.390269049,
         "y": -0.431040391,
@@ -5304,25 +2383,9 @@
       "type": "equirectangular",
       "panorama": "Images/183.jpg",
       "title": "Location 183",
-      "yaw": 88.55724971,
-      "pitch": -3.337757081,
+      "yaw": 1.5456155839502934,
+      "pitch": -0.058254850695205064,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.80676603191066,
-          "text": "Next Location",
-          "sceneId": "184"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.63769957072721,
-          "text": "Previous Location",
-          "sceneId": "182"
-        }
-      ],
       "position": {
         "x": -1.447431335,
         "y": -0.440056795,
@@ -5333,25 +2396,9 @@
       "type": "equirectangular",
       "panorama": "Images/184.jpg",
       "title": "Location 184",
-      "yaw": 89.51209688,
-      "pitch": -2.359948264,
+      "yaw": 1.5622808109201436,
+      "pitch": -0.04118886738352436,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.34246834494597,
-          "text": "Next Location",
-          "sceneId": "185"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.19323396808936,
-          "text": "Previous Location",
-          "sceneId": "183"
-        }
-      ],
       "position": {
         "x": -1.571102626,
         "y": -0.430563276,
@@ -5362,25 +2409,9 @@
       "type": "equirectangular",
       "panorama": "Images/185.jpg",
       "title": "Location 185",
-      "yaw": 90.2099928,
-      "pitch": -2.716497501,
+      "yaw": 1.5744613925603785,
+      "pitch": -0.047411825514647954,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.76013602196068,
-          "text": "Next Location",
-          "sceneId": "186"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.65753165505403,
-          "text": "Previous Location",
-          "sceneId": "184"
-        }
-      ],
       "position": {
         "x": -1.626250178,
         "y": -0.430336278,
@@ -5391,25 +2422,9 @@
       "type": "equirectangular",
       "panorama": "Images/186.jpg",
       "title": "Location 186",
-      "yaw": 90.64437846,
-      "pitch": -3.796613159,
+      "yaw": 1.5820428525508272,
+      "pitch": -0.066263400049093,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -91.86091655238755,
-          "text": "Next Location",
-          "sceneId": "187"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.23986397803934,
-          "text": "Previous Location",
-          "sceneId": "185"
-        }
-      ],
       "position": {
         "x": -1.680891492,
         "y": -0.439342332,
@@ -5420,25 +2435,9 @@
       "type": "equirectangular",
       "panorama": "Images/187.jpg",
       "title": "Location 187",
-      "yaw": 90.54585348,
-      "pitch": -4.372187175,
+      "yaw": 1.5803232672543657,
+      "pitch": -0.0763090617172195,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.30645920085489,
-          "text": "Next Location",
-          "sceneId": "188"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 88.13908344761246,
-          "text": "Previous Location",
-          "sceneId": "186"
-        }
-      ],
       "position": {
         "x": -1.79850161,
         "y": -0.44630907,
@@ -5449,25 +2448,9 @@
       "type": "equirectangular",
       "panorama": "Images/188.jpg",
       "title": "Location 188",
-      "yaw": 90.15610049,
-      "pitch": -4.508601864,
+      "yaw": 1.573520794309373,
+      "pitch": -0.0786899471883536,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.42433750315251,
-          "text": "Next Location",
-          "sceneId": "189"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.69354079914513,
-          "text": "Previous Location",
-          "sceneId": "187"
-        }
-      ],
       "position": {
         "x": -1.854689591,
         "y": -0.436905047,
@@ -5478,25 +2461,9 @@
       "type": "equirectangular",
       "panorama": "Images/189.jpg",
       "title": "Location 189",
-      "yaw": 89.07669521,
-      "pitch": -3.666027976,
+      "yaw": 1.5546816182099616,
+      "pitch": -0.06398425865142367,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.50824634495032,
-          "text": "Next Location",
-          "sceneId": "190"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.57566249684749,
-          "text": "Previous Location",
-          "sceneId": "188"
-        }
-      ],
       "position": {
         "x": -1.96760356,
         "y": -0.442678544,
@@ -5507,25 +2474,9 @@
       "type": "equirectangular",
       "panorama": "Images/190.jpg",
       "title": "Location 190",
-      "yaw": 88.51257411,
-      "pitch": -3.299064107,
+      "yaw": 1.5448358476349897,
+      "pitch": -0.057579530901516504,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.38779863776487,
-          "text": "Next Location",
-          "sceneId": "191"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.49175365504969,
-          "text": "Previous Location",
-          "sceneId": "189"
-        }
-      ],
       "position": {
         "x": -2.020931356,
         "y": -0.45351403,
@@ -5536,25 +2487,9 @@
       "type": "equirectangular",
       "panorama": "Images/191.jpg",
       "title": "Location 191",
-      "yaw": 88.45149212,
-      "pitch": -2.914638953,
+      "yaw": 1.5437697657958194,
+      "pitch": -0.050870046236730256,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.87175357722505,
-          "text": "Next Location",
-          "sceneId": "192"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.61220136223514,
-          "text": "Previous Location",
-          "sceneId": "190"
-        }
-      ],
       "position": {
         "x": -2.071580791,
         "y": -0.455444476,
@@ -5565,25 +2500,9 @@
       "type": "equirectangular",
       "panorama": "Images/192.jpg",
       "title": "Location 192",
-      "yaw": 87.89983267,
-      "pitch": -2.898791382,
+      "yaw": 1.5341414920435783,
+      "pitch": -0.05059345394433669,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -84.93095703889227,
-          "text": "Next Location",
-          "sceneId": "193"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.12824642277495,
-          "text": "Previous Location",
-          "sceneId": "191"
-        }
-      ],
       "position": {
         "x": -2.123654468,
         "y": -0.448939681,
@@ -5594,25 +2513,9 @@
       "type": "equirectangular",
       "panorama": "Images/193.jpg",
       "title": "Location 193",
-      "yaw": 88.33519432,
-      "pitch": -3.285495931,
+      "yaw": 1.5417399862729935,
+      "pitch": -0.05734272155682643,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.21492269519878,
-          "text": "Next Location",
-          "sceneId": "194"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 95.06904296110774,
-          "text": "Previous Location",
-          "sceneId": "192"
-        }
-      ],
       "position": {
         "x": -2.170718964,
         "y": -0.445051063,
@@ -5623,25 +2526,9 @@
       "type": "equirectangular",
       "panorama": "Images/194.jpg",
       "title": "Location 194",
-      "yaw": 88.28638532,
-      "pitch": -3.924761299,
+      "yaw": 1.5408881085183874,
+      "pitch": -0.06850000702239963,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.45381988183902,
-          "text": "Next Location",
-          "sceneId": "195"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.78507730480123,
-          "text": "Previous Location",
-          "sceneId": "193"
-        }
-      ],
       "position": {
         "x": -2.211987103,
         "y": -0.452703826,
@@ -5652,25 +2539,9 @@
       "type": "equirectangular",
       "panorama": "Images/195.jpg",
       "title": "Location 195",
-      "yaw": 88.8547217,
-      "pitch": -4.41848438,
+      "yaw": 1.5508074496082531,
+      "pitch": -0.07711710037894029,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.27629331588045,
-          "text": "Next Location",
-          "sceneId": "196"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.54618011816099,
-          "text": "Previous Location",
-          "sceneId": "194"
-        }
-      ],
       "position": {
         "x": -2.264391547,
         "y": -0.461597565,
@@ -5681,25 +2552,9 @@
       "type": "equirectangular",
       "panorama": "Images/196.jpg",
       "title": "Location 196",
-      "yaw": 89.59556504,
-      "pitch": -4.848494684,
+      "yaw": 1.563737605132725,
+      "pitch": -0.08462219600124203,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.98894239963589,
-          "text": "Next Location",
-          "sceneId": "197"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.72370668411955,
-          "text": "Previous Location",
-          "sceneId": "195"
-        }
-      ],
       "position": {
         "x": -2.316955966,
         "y": -0.464784281,
@@ -5710,25 +2565,9 @@
       "type": "equirectangular",
       "panorama": "Images/197.jpg",
       "title": "Location 197",
-      "yaw": 89.22274023,
-      "pitch": -4.829958564,
+      "yaw": 1.5572305846651027,
+      "pitch": -0.08429867967669726,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.61727627397364,
-          "text": "Next Location",
-          "sceneId": "198"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.0110576003641,
-          "text": "Previous Location",
-          "sceneId": "196"
-        }
-      ],
       "position": {
         "x": -2.365808093,
         "y": -0.459098239,
@@ -5739,25 +2578,9 @@
       "type": "equirectangular",
       "panorama": "Images/198.jpg",
       "title": "Location 198",
-      "yaw": 88.69199684,
-      "pitch": -4.007085399,
+      "yaw": 1.5479673650264065,
+      "pitch": -0.0699368336211407,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.60979586770104,
-          "text": "Next Location",
-          "sceneId": "199"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.38272372602636,
-          "text": "Previous Location",
-          "sceneId": "197"
-        }
-      ],
       "position": {
         "x": -2.417604323,
         "y": -0.452522673,
@@ -5768,25 +2591,9 @@
       "type": "equirectangular",
       "panorama": "Images/199.jpg",
       "title": "Location 199",
-      "yaw": 88.86735912,
-      "pitch": -3.531422369,
+      "yaw": 1.5510280141962107,
+      "pitch": -0.06163494761762813,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.38169666841767,
-          "text": "Next Location",
-          "sceneId": "200"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.39020413229898,
-          "text": "Previous Location",
-          "sceneId": "198"
-        }
-      ],
       "position": {
         "x": -2.465569533,
         "y": -0.459157801,
@@ -5797,25 +2604,9 @@
       "type": "equirectangular",
       "panorama": "Images/200.jpg",
       "title": "Location 200",
-      "yaw": 88.37483695,
-      "pitch": -3.14032334,
+      "yaw": 1.5424318806906434,
+      "pitch": -0.05480898186022535,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.13559488229167,
-          "text": "Next Location",
-          "sceneId": "201"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.61830333158233,
-          "text": "Previous Location",
-          "sceneId": "199"
-        }
-      ],
       "position": {
         "x": -2.518669531,
         "y": -0.471459428,
@@ -5826,25 +2617,9 @@
       "type": "equirectangular",
       "panorama": "Images/201.jpg",
       "title": "Location 201",
-      "yaw": 88.26664986,
-      "pitch": -2.900099465,
+      "yaw": 1.540543659761992,
+      "pitch": -0.05061628429957605,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.4488588813264,
-          "text": "Next Location",
-          "sceneId": "202"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.86440511770833,
-          "text": "Previous Location",
-          "sceneId": "200"
-        }
-      ],
       "position": {
         "x": -2.570491117,
         "y": -0.475952979,
@@ -5855,25 +2630,9 @@
       "type": "equirectangular",
       "panorama": "Images/202.jpg",
       "title": "Location 202",
-      "yaw": 87.9882094,
-      "pitch": -2.755338238,
+      "yaw": 1.5356839569642244,
+      "pitch": -0.04808972425919914,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -85.32929075183698,
-          "text": "Next Location",
-          "sceneId": "203"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.5511411186736,
-          "text": "Previous Location",
-          "sceneId": "201"
-        }
-      ],
       "position": {
         "x": -2.61751984,
         "y": -0.472582012,
@@ -5884,25 +2643,9 @@
       "type": "equirectangular",
       "panorama": "Images/203.jpg",
       "title": "Location 203",
-      "yaw": 88.93250736,
-      "pitch": -2.848057692,
+      "yaw": 1.5521650654860901,
+      "pitch": -0.04970798401215056,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -82.6352251870451,
-          "text": "Next Location",
-          "sceneId": "204"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 94.67070924816304,
-          "text": "Previous Location",
-          "sceneId": "202"
-        }
-      ],
       "position": {
         "x": -2.668158129,
         "y": -0.468805224,
@@ -5913,25 +2656,9 @@
       "type": "equirectangular",
       "panorama": "Images/204.jpg",
       "title": "Location 204",
-      "yaw": 89.90992835,
-      "pitch": -3.154619954,
+      "yaw": 1.5692242799396927,
+      "pitch": -0.05505850484641207,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.37224988270275,
-          "text": "Next Location",
-          "sceneId": "205"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 97.3647748129549,
-          "text": "Previous Location",
-          "sceneId": "203"
-        }
-      ],
       "position": {
         "x": -2.711770916,
         "y": -0.473121522,
@@ -5942,25 +2669,9 @@
       "type": "equirectangular",
       "panorama": "Images/205.jpg",
       "title": "Location 205",
-      "yaw": 89.79058672,
-      "pitch": -3.332337962,
+      "yaw": 1.5671413755614956,
+      "pitch": -0.05816026922609768,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.75605301383155,
-          "text": "Next Location",
-          "sceneId": "206"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.62775011729725,
-          "text": "Previous Location",
-          "sceneId": "204"
-        }
-      ],
       "position": {
         "x": -2.75722741,
         "y": -0.481143458,
@@ -5971,25 +2682,9 @@
       "type": "equirectangular",
       "panorama": "Images/206.jpg",
       "title": "Location 206",
-      "yaw": 89.31270288,
-      "pitch": -3.286986269,
+      "yaw": 1.558800729111422,
+      "pitch": -0.05736873286189402,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.59662991793542,
-          "text": "Next Location",
-          "sceneId": "207"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.24394698616847,
-          "text": "Previous Location",
-          "sceneId": "205"
-        }
-      ],
       "position": {
         "x": -2.804313667,
         "y": -0.485093873,
@@ -6000,25 +2695,9 @@
       "type": "equirectangular",
       "panorama": "Images/207.jpg",
       "title": "Location 207",
-      "yaw": 88.53125275,
-      "pitch": -3.647819239,
+      "yaw": 1.5451618514027843,
+      "pitch": -0.06366645623814395,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.30757595220689,
-          "text": "Next Location",
-          "sceneId": "208"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.40337008206458,
-          "text": "Previous Location",
-          "sceneId": "206"
-        }
-      ],
       "position": {
         "x": -2.851617467,
         "y": -0.479035091,
@@ -6029,25 +2708,9 @@
       "type": "equirectangular",
       "panorama": "Images/208.jpg",
       "title": "Location 208",
-      "yaw": 88.34521742,
-      "pitch": -3.571747187,
+      "yaw": 1.54191492236925,
+      "pitch": -0.06233874846199561,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.61582355790296,
-          "text": "Next Location",
-          "sceneId": "209"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.69242404779312,
-          "text": "Previous Location",
-          "sceneId": "207"
-        }
-      ],
       "position": {
         "x": -2.902518091,
         "y": -0.472219831,
@@ -6058,25 +2721,9 @@
       "type": "equirectangular",
       "panorama": "Images/209.jpg",
       "title": "Location 209",
-      "yaw": 87.21513748,
-      "pitch": -3.556117163,
+      "yaw": 1.5221913066055102,
+      "pitch": -0.06206595308102988,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.19755534759574,
-          "text": "Next Location",
-          "sceneId": "210"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.38417644209704,
-          "text": "Previous Location",
-          "sceneId": "208"
-        }
-      ],
       "position": {
         "x": -2.945079702,
         "y": -0.474034035,
@@ -6087,25 +2734,9 @@
       "type": "equirectangular",
       "panorama": "Images/210.jpg",
       "title": "Location 210",
-      "yaw": 86.42917567,
-      "pitch": -3.63813628,
+      "yaw": 1.5084736852260763,
+      "pitch": -0.06349745672225833,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.74160751673818,
-          "text": "Next Location",
-          "sceneId": "211"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.80244465240426,
-          "text": "Previous Location",
-          "sceneId": "209"
-        }
-      ],
       "position": {
         "x": -2.996015824,
         "y": -0.483521791,
@@ -6116,25 +2747,9 @@
       "type": "equirectangular",
       "panorama": "Images/211.jpg",
       "title": "Location 211",
-      "yaw": 86.9187269,
-      "pitch": -3.368767928,
+      "yaw": 1.517017966046764,
+      "pitch": -0.058796092079187276,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.76491658404373,
-          "text": "Next Location",
-          "sceneId": "212"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.25839248326182,
-          "text": "Previous Location",
-          "sceneId": "210"
-        }
-      ],
       "position": {
         "x": -3.118177744,
         "y": -0.484981435,
@@ -6145,25 +2760,9 @@
       "type": "equirectangular",
       "panorama": "Images/212.jpg",
       "title": "Location 212",
-      "yaw": 87.90808919,
-      "pitch": -3.951904389,
+      "yaw": 1.5342855955023351,
+      "pitch": -0.06897374331206478,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.44159806329469,
-          "text": "Next Location",
-          "sceneId": "213"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.23508341595628,
-          "text": "Previous Location",
-          "sceneId": "211"
-        }
-      ],
       "position": {
         "x": -3.169582195,
         "y": -0.478644577,
@@ -6174,25 +2773,9 @@
       "type": "equirectangular",
       "panorama": "Images/213.jpg",
       "title": "Location 213",
-      "yaw": 88.55418565,
-      "pitch": -4.099378019,
+      "yaw": 1.5455621060148148,
+      "pitch": -0.07154764371543267,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -88.85023454418915,
-          "text": "Next Location",
-          "sceneId": "214"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.55840193670532,
-          "text": "Previous Location",
-          "sceneId": "212"
-        }
-      ],
       "position": {
         "x": -3.214456156,
         "y": -0.479946033,
@@ -6203,25 +2786,9 @@
       "type": "equirectangular",
       "panorama": "Images/214.jpg",
       "title": "Location 214",
-      "yaw": 89.60961333,
-      "pitch": -4.015618832,
+      "yaw": 1.5639827940475,
+      "pitch": -0.07008577012348904,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -94.36984490393185,
-          "text": "Next Location",
-          "sceneId": "215"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 91.14976545581086,
-          "text": "Previous Location",
-          "sceneId": "213"
-        }
-      ],
       "position": {
         "x": -3.270549646,
         "y": -0.487595091,
@@ -6232,25 +2799,9 @@
       "type": "equirectangular",
       "panorama": "Images/215.jpg",
       "title": "Location 215",
-      "yaw": 90.24083753,
-      "pitch": -4.371397945,
+      "yaw": 1.5749997346557671,
+      "pitch": -0.07629528705516399,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -92.32255280984724,
-          "text": "Next Location",
-          "sceneId": "216"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 85.63015509606817,
-          "text": "Previous Location",
-          "sceneId": "214"
-        }
-      ],
       "position": {
         "x": -3.319056939,
         "y": -0.493816229,
@@ -6261,25 +2812,9 @@
       "type": "equirectangular",
       "panorama": "Images/216.jpg",
       "title": "Location 216",
-      "yaw": 89.54174447,
-      "pitch": -4.543082905,
+      "yaw": 1.5627982589809248,
+      "pitch": -0.07929175488331876,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -93.69570674156653,
-          "text": "Next Location",
-          "sceneId": "217"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 87.67744719015278,
-          "text": "Previous Location",
-          "sceneId": "215"
-        }
-      ],
       "position": {
         "x": -3.425798966,
         "y": -0.480185307,
@@ -6290,25 +2825,9 @@
       "type": "equirectangular",
       "panorama": "Images/217.jpg",
       "title": "Location 217",
-      "yaw": 88.30904218,
-      "pitch": -4.059377653,
+      "yaw": 1.5412835453235512,
+      "pitch": -0.07084950562672987,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -94.22077123196789,
-          "text": "Next Location",
-          "sceneId": "218"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 86.30429325843349,
-          "text": "Previous Location",
-          "sceneId": "216"
-        }
-      ],
       "position": {
         "x": -3.464953036,
         "y": -0.482213132,
@@ -6319,25 +2838,9 @@
       "type": "equirectangular",
       "panorama": "Images/218.jpg",
       "title": "Location 218",
-      "yaw": 88.17852335,
-      "pitch": -3.821846267,
+      "yaw": 1.5390055620042002,
+      "pitch": -0.06670380086420431,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -91.33678016882618,
-          "text": "Next Location",
-          "sceneId": "219"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 85.77922876803213,
-          "text": "Previous Location",
-          "sceneId": "217"
-        }
-      ],
       "position": {
         "x": -3.512673317,
         "y": -0.49227917,
@@ -6348,25 +2851,9 @@
       "type": "equirectangular",
       "panorama": "Images/219.jpg",
       "title": "Location 219",
-      "yaw": 88.28798179,
-      "pitch": -3.239690995,
+      "yaw": 1.5409159721762968,
+      "pitch": -0.056543274609961156,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -90.36695520001643,
-          "text": "Next Location",
-          "sceneId": "220"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 88.66321983117383,
-          "text": "Previous Location",
-          "sceneId": "218"
-        }
-      ],
       "position": {
         "x": -3.56414462,
         "y": -0.502141669,
@@ -6377,25 +2864,9 @@
       "type": "equirectangular",
       "panorama": "Images/220.jpg",
       "title": "Location 220",
-      "yaw": 88.15354094,
-      "pitch": -2.801256607,
+      "yaw": 1.538569536694617,
+      "pitch": -0.048891150985394836,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -87.97333364088306,
-          "text": "Next Location",
-          "sceneId": "221"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 89.63304479998358,
-          "text": "Previous Location",
-          "sceneId": "219"
-        }
-      ],
       "position": {
         "x": -3.609021291,
         "y": -0.499959178,
@@ -6406,25 +2877,9 @@
       "type": "equirectangular",
       "panorama": "Images/221.jpg",
       "title": "Location 221",
-      "yaw": 89.24234542,
-      "pitch": -2.930177827,
+      "yaw": 1.557572759781082,
+      "pitch": -0.0511412507500828,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -91.80039380178818,
-          "text": "Next Location",
-          "sceneId": "222"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 92.02666635911696,
-          "text": "Previous Location",
-          "sceneId": "220"
-        }
-      ],
       "position": {
         "x": -3.662116318,
         "y": -0.493418892,
@@ -6435,25 +2890,9 @@
       "type": "equirectangular",
       "panorama": "Images/222.jpg",
       "title": "Location 222",
-      "yaw": 89.57979765,
-      "pitch": -4.660538904,
+      "yaw": 1.5634624122627792,
+      "pitch": -0.08134174879208793,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -91.6783049667938,
-          "text": "Next Location",
-          "sceneId": "223"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 88.19960619821182,
-          "text": "Previous Location",
-          "sceneId": "221"
-        }
-      ],
       "position": {
         "x": -3.75633215,
         "y": -0.502536274,
@@ -6464,25 +2903,9 @@
       "type": "equirectangular",
       "panorama": "Images/223.jpg",
       "title": "Location 223",
-      "yaw": 89.0634188,
-      "pitch": -4.748255548,
+      "yaw": 1.554449901142617,
+      "pitch": -0.08287269303868766,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -91.58472495032956,
-          "text": "Next Location",
-          "sceneId": "224"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 88.32169503320621,
-          "text": "Previous Location",
-          "sceneId": "222"
-        }
-      ],
       "position": {
         "x": -3.855894141,
         "y": -0.510214868,
@@ -6493,25 +2916,9 @@
       "type": "equirectangular",
       "panorama": "Images/224.jpg",
       "title": "Location 224",
-      "yaw": 88.03026671,
-      "pitch": -4.619803744,
+      "yaw": 1.5364179954982564,
+      "pitch": -0.08063078612876123,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -89.48823079585175,
-          "text": "Next Location",
-          "sceneId": "225"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 88.41527504967046,
-          "text": "Previous Location",
-          "sceneId": "223"
-        }
-      ],
       "position": {
         "x": -3.900980329,
         "y": -0.502943828,
@@ -6522,25 +2929,9 @@
       "type": "equirectangular",
       "panorama": "Images/225.jpg",
       "title": "Location 225",
-      "yaw": 86.40041315,
-      "pitch": -4.089389888,
+      "yaw": 1.5079716845509055,
+      "pitch": -0.07137331794336216,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.00624239262962,
-          "text": "Next Location",
-          "sceneId": "226"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 90.51176920414825,
-          "text": "Previous Location",
-          "sceneId": "224"
-        }
-      ],
       "position": {
         "x": -3.939346616,
         "y": -0.499434241,
@@ -6551,25 +2942,9 @@
       "type": "equirectangular",
       "panorama": "Images/226.jpg",
       "title": "Location 226",
-      "yaw": 86.73739934,
-      "pitch": -3.157441823,
+      "yaw": 1.5138532031001564,
+      "pitch": -0.055107755751522026,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": -86.09087126807036,
-          "text": "Next Location",
-          "sceneId": "227"
-        },
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.99375760737038,
-          "text": "Previous Location",
-          "sceneId": "225"
-        }
-      ],
       "position": {
         "x": -3.978486483,
         "y": -0.507640071,
@@ -6580,18 +2955,9 @@
       "type": "equirectangular",
       "panorama": "Images/227.jpg",
       "title": "Location 227",
-      "yaw": 86.29857518,
-      "pitch": -2.457320792,
+      "yaw": 1.506194276670858,
+      "pitch": -0.042888338598114736,
       "hfov": 110,
-      "hotSpots": [
-        {
-          "type": "scene",
-          "pitch": 0,
-          "yaw": 93.90912873192964,
-          "text": "Previous Location",
-          "sceneId": "226"
-        }
-      ],
       "position": {
         "x": -4.021056299,
         "y": -0.516610148,
@@ -8426,11 +4792,5 @@
       "x": -4.021056299,
       "z": 9.653469112
     }
-  ],
-  "bounds": {
-    "min_x": -4.021056299,
-    "max_x": 3.723911793,
-    "min_z": 0.0,
-    "max_z": 9.787901628
-  }
+  ]
 }

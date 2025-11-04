@@ -1,263 +1,487 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Virtual Tour</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css" />
-    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
-    <style>
-        body { margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        #container { display:flex; height:100vh; }
-        #viewer { flex-grow:1; }
-        #sidebar {
-            width:380px;
-            background:#f9f9f9;
-            border-left:1px solid #ccc;
-            padding:20px;
-            display:flex;
-            flex-direction:column;
-        }
-        h2 { margin-top:0; }
-        button {
-            cursor:pointer;
-            font-size:14px;
-            margin:5px 5px 15px 0;
-            padding:10px;
-            background:#3498db;
-            color:#fff;
-            border:none;
-            border-radius:4px;
-        }
-        button:hover { background:#2980b9; }
-        ul {
-            list-style:none;
-            padding-left:0;
-            overflow-y:auto;
-            max-height:320px;
-            border:1px solid #ccc;
-            border-radius:4px;
-        }
-        li {
-            padding:12px;
-            border-bottom:1px solid #eee;
-            cursor:pointer;
-        }
-        li.active {
-            background:#2980b9;
-            color:#fff;
-        }
-        li:hover { background:#ecf0f1; }
-        #minimap-container {
-            flex-grow:1;
-            margin-top:10px;
-            border:1px solid #ccc;
-            border-radius:4px;
-            position:relative;
-        }
-        canvas#minimap {
-            width:100%;
-            height:300px;
-            display:block;
-        }
-    </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Virtual Tour — Comments & Sticky Notes</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  <style>
+    body{margin:0;font-family:Segoe UI,Roboto,Arial;background:#eef2f5;overflow:hidden}
+    #container{display:flex;height:100vh;overflow:hidden}
+    #viewer{flex-grow:1;position:relative;background:black}
+    #sidebar{width:360px;background:white;border-left:1px solid #ccc;padding:12px;overflow-y:auto;box-sizing:border-box}
+    #menuBtn{position:absolute;top:12px;right:12px;z-index:20;background:#3498db;color:white;border:none;border-radius:6px;width:42px;height:38px;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,0.2)}
+    h2{margin:0 0 10px;font-weight:600;color:#2c3e50}
+    /* compact controls */
+    .ctrl-row{display:flex;gap:8px;margin-bottom:8px}
+    .ctrl-row button{flex:1;padding:8px 6px;font-size:13px;border-radius:6px;background:#3498db;color:#fff;border:none;cursor:pointer}
+    .ctrl-row button.small{flex:0 0 auto;padding:6px 8px;font-size:12px}
+    .speed-controls{display:flex;gap:6px;justify-content:center}
+    .speed-btn{flex:1;border-radius:6px;padding:6px 8px;font-size:12px;background:#95a5a6;color:#fff}
+    .speed-btn.active{background:#27ae60}
+    select#fovSelect{padding:6px;border-radius:6px;border:1px solid #ccc;font-size:13px;background:#f8f9fa}
+    ul#sceneList{list-style:none;padding:0;margin:6px 0 12px;border:1px solid #ddd;border-radius:6px;max-height:150px;overflow:auto;padding-left:0}
+    ul#sceneList li{padding:8px 10px;border-bottom:1px solid #eee;cursor:pointer}
+    ul#sceneList li:hover{background:#ecf0f1} ul#sceneList li.active{background:#2980b9;color:#fff;font-weight:600}
+    /* make minimap larger */
+    #minimap-container{margin-top:10px;border:1px solid #ccc;border-radius:6px;overflow:hidden;padding:6px;background:#fff}
+    canvas#minimap{width:100%;height:340px;display:block}
+    #footer-note{text-align:center;font-size:12px;color:#555;margin-top:6px}
+    /* Comment dialog */
+    #commentDialog{display:none;position:absolute;z-index:500;background:white;padding:10px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.25);width:280px}
+    #commentDialog input,#commentDialog textarea{width:100%;box-sizing:border-box;margin-bottom:6px;padding:8px;border:1px solid #ccc;border-radius:6px;font-size:13px}
+    #commentDialog .dlg-actions{display:flex;gap:6px;justify-content:flex-end}
+    /* comment panel */
+    #commentPanel{border:1px solid #ddd;border-radius:6px;padding:6px;max-height:220px;overflow:auto;background:#fafafa;margin-top:10px}
+    .comment-row{padding:8px;border-bottom:1px solid #eee;cursor:pointer}
+    .comment-row:hover{background:#f0f6fb}
+    .comment-row b{display:block}
+    /* comment modal */
+    #commentModal{display:none;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:999;background:white;padding:12px;border-radius:8px;width:360px;box-shadow:0 8px 40px rgba(0,0,0,0.3)}
+    #commentModal .replies{max-height:200px;overflow:auto;margin-top:8px;padding-top:6px;border-top:1px solid #eee}
+    #commentModal input,#commentModal textarea{width:100%;box-sizing:border-box;margin-top:6px;padding:8px;border-radius:6px;border:1px solid #ccc}
+    #modalClose{position:absolute;right:10px;top:8px;border:none;background:none;font-size:16px;cursor:pointer;color:#666}
+    @media(max-width:768px){
+      #sidebar{position:absolute;right:0;top:0;height:100%;width:80%;max-width:320px;transform:translateX(0)}
+    }
+  </style>
 </head>
 <body>
-    <div id="container">
-        <div id="viewer"></div>
-        <div id="sidebar">
-            <h2>Virtual Tour</h2>
-            <button onclick="prevScene()">Previous</button>
-            <button onclick="nextScene()">Next</button>
-            <button onclick="playTour()">Play Tour</button>
-            <button onclick="stopTour()">Stop</button>
+<div id="container">
+  <div id="viewer">
+    <button id="menuBtn" onclick="toggleMenu()">☰</button>
+  </div>
 
-            <h3>Locations</h3>
-            <ul id="sceneList"></ul>
+  <div id="sidebar">
+    <h2>Virtual Tour</h2>
 
-            <div id="minimap-container">
-                <canvas id="minimap"></canvas>
-                <div style="text-align:center; font-size:12px; margin-top:5px;">Click on map to navigate</div>
-            </div>
-        </div>
+    <div class="ctrl-row">
+      <button id="prevBtn" class="small" onclick="prevScene()">◀</button>
+      <button id="nextBtn" class="small" onclick="nextScene()">▶</button>
+      <button id="playBtn" class="small" onclick="playTour()">▶ Play</button>
+      <button id="stopBtn" class="small" style="display:none;background:#e67e22;" onclick="stopTour()">■</button>
     </div>
-    <script>
-        let config = null;
-        let viewer = null;
-        let currentIdx = 0;
-        let playing = false;
-        let playInterval = null;
 
-        fetch('config.json')
-            .then(r => r.json())
-            .then(data => {
-                config = data;
-                init();
-            });
+    <div style="display:flex;gap:8px;margin-bottom:8px;">
+      <div style="flex:1" class="speed-controls">
+        <button class="speed-btn active" onclick="setSpeed(1)">1x</button>
+        <button class="speed-btn" onclick="setSpeed(2)">2x</button>
+        <button class="speed-btn" onclick="setSpeed(4)">4x</button>
+      </div>
+      <div style="width:86px;">
+        <select id="fovSelect" onchange="updateFOV()">
+          <option value="75">75°</option>
+          <option value="90" selected>90°</option>
+          <option value="100">100°</option>
+          <option value="120">120°</option>
+        </select>
+      </div>
+    </div>
 
-        function init() {
-            viewer = pannellum.viewer('viewer', {
-                'default': { 'firstScene': config.scene_ids[0], 'sceneFadeDuration': 500 },
-                'scenes': config.scenes
-            });
+    <button id="penBtn" onclick="togglePenMode()" style="margin-bottom:8px">✏ Add Comment</button>
 
-            viewer.on('scenechange', newScene);
-            buildSceneList();
-            updateUI();
-            drawMinimap();
-            setupMinimapClick();
+    <h3 style="margin:8px 0 6px">Locations</h3>
+    <ul id="sceneList"></ul>
+
+    <div id="minimap-container">
+      <canvas id="minimap"></canvas>
+      <div id="footer-note">Click on map to navigate</div>
+    </div>
+
+    <h3 style="margin:12px 0 6px">All Comments</h3>
+    <div id="commentPanel"></div>
+  </div>
+</div>
+
+<!-- Add Comment Dialog -->
+<div id="commentDialog">
+  <input id="commentName" placeholder="Your name" />
+  <textarea id="commentText" placeholder="Write a comment..." rows="3"></textarea>
+  <div class="dlg-actions">
+    <button onclick="cancelComment()" style="background:#aaa;color:#fff;padding:6px 10px;border-radius:6px;border:none">Cancel</button>
+    <button onclick="saveComment()" style="background:#3498db;color:#fff;padding:6px 10px;border-radius:6px;border:none">Save</button>
+  </div>
+</div>
+
+<!-- Comment Modal (view + reply) -->
+<div id="commentModal">
+  <button id="modalClose" onclick="closeModal()">✕</button>
+  <div id="modalContent"></div>
+  <div class="replies" id="modalReplies"></div>
+  <div style="margin-top:8px">
+    <input id="replyName" placeholder="Your name" />
+    <textarea id="replyText" placeholder="Write a reply..." rows="2"></textarea>
+    <div style="text-align:right;margin-top:6px">
+      <button onclick="submitReply()" style="background:#3498db;color:#fff;padding:6px 10px;border-radius:6px;border:none">Reply</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let config, viewer, currentIdx = 0, navHistory = [];
+let playing=false, playSpeed=1, playTimer=null, stopRequested=false;
+let penMode=false, tempMarker=null;
+let comments = []; // array of comment objects loaded from server
+const commentsFetchPath = '/comments.json';
+const commentsSavePath = '/save_comments';
+
+// escape utility
+function escapeHTML(s){ return String(s||'').replace(/[&<>"']/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]; }); }
+
+fetch('config.json').then(r=>r.json()).then(d=>{ config=d; init(); }).catch(e=>{ alert('Failed to load config.json: '+e); });
+
+function toggleMenu(){ document.getElementById('sidebar').classList.toggle('show'); }
+
+function init(){
+  const first = config.scene_ids[0];
+  viewer = pannellum.viewer('viewer', {
+    'default': { 'firstScene': first, 'sceneFadeDuration': 500, 'hfov': 90 },
+    'scenes': config.scenes
+  });
+
+  viewer.on('scenechange', id => {
+    currentIdx = config.scene_ids.indexOf(id);
+    updateUI();
+    // show only comments for this scene (pannellum automatically shows hotspots for loaded scene if hotspots were added to scenes)
+    // additionally re-centre torch/path
+    setTorchToPath(currentIdx);
+    // small delay to ensure scene DOM ready
+    setTimeout(()=>{ showSceneComments(id); }, 350);
+  });
+
+  buildList(); updateUI(); setupMinimapClick(); dynamicTorch();
+  setTorchToPath(0);
+
+  // viewer click to add comment in pen mode
+  const viewerDom = document.getElementById('viewer');
+  viewerDom.addEventListener('mousedown', function(e){
+    if(!penMode) return;
+    let coords = viewer.mouseEventToCoords(e) || {};
+    const pitch = ('pitch' in coords) ? coords.pitch : viewer.getPitch();
+    const yaw = ('yaw' in coords) ? coords.yaw : viewer.getYaw();
+    tempMarker = { pitch: pitch, yaw: yaw, scene: config.scene_ids[currentIdx] };
+    openCommentDialog(e.clientX, e.clientY);
+  });
+
+  loadComments().then(()=>{ renderCommentPanel(); showSceneComments(config.scene_ids[currentIdx]); startRealtimeComments(); });
+}
+
+function updateFOV(){ viewer.setHfov(parseInt(document.getElementById('fovSelect').value)); }
+
+function buildList(){
+  const ul = document.getElementById('sceneList'); ul.innerHTML='';
+  config.scene_ids.forEach((id, idx) => {
+    const li = document.createElement('li');
+    li.textContent = 'Location ' + id;
+    li.onclick = ()=> { navHistory.push(config.scene_ids[currentIdx]); viewer.loadScene(id); };
+    if(idx===currentIdx) li.classList.add('active');
+    ul.appendChild(li);
+  });
+}
+
+function updateUI(){
+  buildList();
+  document.getElementById('undoBtn') && (document.getElementById('undoBtn').disabled = navHistory.length===0);
+  document.querySelectorAll('.speed-btn').forEach(b=>b.classList.toggle('active', parseInt(b.textContent)===playSpeed));
+  document.getElementById('penBtn').style.background = penMode ? '#2ecc71' : '#3498db';
+}
+
+function prevScene(){ if(currentIdx>0){ navHistory.push(config.scene_ids[currentIdx]); viewer.loadScene(config.scene_ids[currentIdx-1]); } }
+function nextScene(){ if(currentIdx<config.scene_ids.length-1){ navHistory.push(config.scene_ids[currentIdx]); viewer.loadScene(config.scene_ids[currentIdx+1]); } }
+function undoNavigation(){ if(navHistory.length){ viewer.loadScene(navHistory.pop()); } }
+
+function playTour(){
+  if(playing) return;
+  playing=true; stopRequested=false;
+  document.getElementById('playBtn').style.display='none';
+  document.getElementById('stopBtn').style.display='inline-block';
+  let i = currentIdx + 1;
+  const loop = ()=>{
+    if(stopRequested || i >= config.scene_ids.length){ stopTour(); return; }
+    viewer.loadScene(config.scene_ids[i]);
+    i++;
+    playTimer = setTimeout(loop, 3000 / playSpeed);
+  };
+  loop();
+}
+
+function stopTour(){
+  if(!playing) return;
+  stopRequested=true; playing=false;
+  clearTimeout(playTimer); playTimer=null;
+  document.getElementById('playBtn').style.display='inline-block';
+  document.getElementById('stopBtn').style.display='none';
+}
+
+function setSpeed(s){ playSpeed=s; updateUI(); }
+
+/* -------- Minimap (unchanged logic, slightly larger) -------- */
+let torchAngle=0, displayedTorch=0, lastYaw=null;
+function setTorchToPath(i){
+  const cur=config.keyframes[i]; let next=null;
+  if(i<config.keyframes.length-1) next=config.keyframes[i+1];
+  else if(i>0) next=config.keyframes[i-1];
+  torchAngle = next ? Math.atan2(next.z - cur.z, next.x - cur.x) : 0;
+  displayedTorch = torchAngle;
+}
+function normalize(a){ while(a<=-Math.PI) a+=2*Math.PI; while(a>Math.PI) a-=2*Math.PI; return a; }
+function dynamicTorch(){
+  function loop(){
+    const yaw = viewer.getYaw() * Math.PI / 180;
+    if(lastYaw != null){ let delta = normalize(yaw - lastYaw); torchAngle = normalize(torchAngle - delta); }
+    lastYaw = yaw; displayedTorch = normalize(displayedTorch + (torchAngle - displayedTorch) * 0.15);
+    drawMinimap(); requestAnimationFrame(loop);
+  } loop();
+}
+function drawMinimap(){
+  const c = document.getElementById('minimap'), ctx = c.getContext('2d');
+  const w = c.width = c.offsetWidth, h = c.height = c.offsetHeight;
+  ctx.clearRect(0,0,w,h);
+  ctx.fillStyle='#f8f9fa'; ctx.fillRect(0,0,w,h);
+  const xA=config.keyframes.map(k=>k.x), zA=config.keyframes.map(k=>k.z);
+  const minX=Math.min(...xA), maxX=Math.max(...xA), minZ=Math.min(...zA), maxZ=Math.max(...zA);
+  const m=20, s=Math.min((w-2*m)/(maxX-minX),(h-2*m)/(maxZ-minZ));
+  ctx.beginPath();
+  config.keyframes.forEach((k,i)=>{ const x=m+(k.x-minX)*s, z=h-m-(k.z-minZ)*s; if(i===0) ctx.moveTo(x,z); else ctx.lineTo(x,z); });
+  ctx.strokeStyle='black'; ctx.lineWidth=1.5; ctx.stroke();
+  config.keyframes.forEach(k=>{ const x=m+(k.x-minX)*s, z=h-m-(k.z-minZ)*s; ctx.beginPath(); ctx.arc(x,z,3,0,2*Math.PI); ctx.fillStyle='darkblue'; ctx.fill(); });
+  const k=config.keyframes[currentIdx]; const x=m+(k.x-minX)*s, z=h-m-(k.z-minZ)*s, y=displayedTorch;
+  const R=35, A=Math.PI/3;
+  ctx.beginPath(); ctx.moveTo(x,z); ctx.arc(x,z,R,-y-A/2,-y+A/2); ctx.lineTo(x,z);
+  ctx.fillStyle='rgba(255,107,107,0.35)'; ctx.fill();
+  ctx.beginPath(); ctx.arc(x,z,R,-y-A/2,-y+A/2); ctx.strokeStyle='#ff6b6b'; ctx.lineWidth=2; ctx.stroke();
+  ctx.beginPath(); ctx.arc(x,z,7,0,2*Math.PI); ctx.fillStyle='#ff6b6b'; ctx.fill(); ctx.strokeStyle='#fff'; ctx.lineWidth=2; ctx.stroke();
+}
+function setupMinimapClick(){
+  const c=document.getElementById('minimap');
+  c.addEventListener('click', e=>{
+    const r = c.getBoundingClientRect(), x = e.clientX - r.left, z = e.clientY - r.top;
+    const w = c.offsetWidth, h = c.offsetHeight, m = 20;
+    const xA=config.keyframes.map(k=>k.x), zA=config.keyframes.map(k=>k.z);
+    const minX=Math.min(...xA), maxX=Math.max(...xA), minZ=Math.min(...zA), maxZ=Math.max(...zA);
+    const s = Math.min((w-2*m)/(maxX-minX),(h-2*m)/(maxZ-minZ));
+    const wx = minX + (x - m) / s, wz = minZ + ((h - m - z) / s);
+    let closest=0, dMin=Infinity;
+    config.keyframes.forEach((k,i)=>{ const dx=k.x-wx, dz=k.z-wz, d=Math.sqrt(dx*dx+dz*dz); if(d<dMin){ dMin=d; closest=i; }});
+    navHistory.push(config.scene_ids[currentIdx]);
+    viewer.loadScene(config.scene_ids[closest]);
+  });
+}
+setupMinimapClick = setupMinimapClick; // satisfy linter
+
+/* -------- Comments logic -------- */
+
+// Add hotspot for comment c to its scene (Pannellum supports adding hotspot per scene via second arg)
+function addMarker(c){
+  try{
+    const sceneId = c.scene || config.scene_ids[currentIdx];
+    viewer.addHotSpot({
+      pitch: c.pitch,
+      yaw: c.yaw,
+      cssClass: "custom-hotspot",
+      createTooltipFunc: function(h) {
+        h.className = "pnlm-hotspot custom-hotspot";
+        h.setAttribute('data-comment-id', c.id);
+        // small marker with on-click to open modal
+        const safeName = escapeHTML(c.name);
+        const safeText = escapeHTML(c.text);
+        const inner = document.createElement('div');
+        inner.className = 'comment-card';
+        inner.style.minWidth='180px';
+        inner.innerHTML = '<div style="padding:6px;background:#fff;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,0.12)"><b>'+safeName+'</b><div style="max-width:240px">'+safeText+'</div><div style="margin-top:6px"><button class="small-link" onclick="openCommentFromMarker('+c.id+')">Open</button></div></div>';
+        // attach click to open modal
+        inner.onclick = function(ev){
+          ev.stopPropagation();
+          openCommentModalById(c.id);
+        };
+        // append
+        h.appendChild(inner);
+        return h;
+      }
+    }, sceneId);
+  }catch(e){
+    console.error('addMarker error', e);
+  }
+}
+
+// show only comments for given scene - (we re-add markers for robustness)
+function showSceneComments(sceneId){
+  // Pannellum will display hotspots added to the active scene. To avoid duplicates across reloads, we won't try to remove existing hotspots,
+  // but we only add markers for comments that haven't been added yet.
+  // track existing DOM markers by data-comment-id
+  const existing = Array.from(document.querySelectorAll('.pnlm-hotspot.custom-hotspot')).map(el => el.getAttribute('data-comment-id'));
+  comments.filter(c=>c.scene===sceneId).forEach(c=>{
+    if(!existing.includes(String(c.id))){
+      addMarker(c);
+    }
+  });
+}
+
+// Open modal by comment id
+function openCommentModalById(id){
+  const c = comments.find(x=>x.id===id);
+  if(!c) return;
+  // load scene, set view, then open modal
+  viewer.loadScene(c.scene);
+  setTimeout(()=>{ viewer.setYaw(c.yaw); viewer.setPitch(c.pitch); showModalForComment(c); }, 450);
+}
+
+// Called from marker inner button (inline onclick)
+function openCommentFromMarker(id){
+  openCommentModalById(id);
+}
+
+// Render the left-side comment panel
+function renderCommentPanel(){
+  const panel = document.getElementById('commentPanel');
+  panel.innerHTML = '';
+  if(!comments || !comments.length){
+    panel.innerHTML = '<div style="padding:8px;color:#666">No comments yet</div>';
+    return;
+  }
+  // sort by newest first
+  const sorted = comments.slice().sort((a,b)=>b.id - a.id);
+  sorted.forEach(c=>{
+    const div = document.createElement('div');
+    div.className = 'comment-row';
+    div.innerHTML = '<b>'+escapeHTML(c.name)+'</b>' + '<div style="color:#555;font-size:13px">'+escapeHTML(c.text).slice(0,80)+'</div><div style="color:#888;font-size:12px">Scene '+escapeHTML(c.scene)+'</div>';
+    div.onclick = function(){ openCommentModalById(c.id); };
+    panel.appendChild(div);
+  });
+}
+
+// Show modal with comment and replies
+function showModalForComment(c){
+  const modal = document.getElementById('commentModal');
+  document.getElementById('modalContent').innerHTML = '<b>'+escapeHTML(c.name)+'</b><div style="margin-top:6px">'+escapeHTML(c.text)+'</div><div style="color:#888;margin-top:6px;font-size:12px">Scene '+escapeHTML(c.scene)+'</div>';
+  const repliesDiv = document.getElementById('modalReplies');
+  repliesDiv.innerHTML = '';
+  if(c.replies && c.replies.length){
+    c.replies.forEach(r=>{
+      const el = document.createElement('div'); el.className='reply'; el.style.padding='6px 8px'; el.style.marginTop='6px'; el.style.background='#f7f7f7'; el.style.borderRadius='6px'; el.textContent = r;
+      repliesDiv.appendChild(el);
+    });
+  } else {
+    repliesDiv.innerHTML = '<div style="color:#666;font-size:13px">No replies yet</div>';
+  }
+  // set hidden fields so submitReply knows current id
+  modal.setAttribute('data-current-id', c.id);
+  document.getElementById('replyName').value = '';
+  document.getElementById('replyText').value = '';
+  modal.style.display = 'block';
+  // scroll replies to bottom
+  repliesDiv.scrollTop = repliesDiv.scrollHeight;
+}
+
+function closeModal(){ document.getElementById('commentModal').style.display = 'none'; }
+
+// submit reply from modal
+function submitReply(){
+  const id = parseInt(document.getElementById('commentModal').getAttribute('data-current-id'), 10);
+  if(!id) return;
+  const name = document.getElementById('replyName').value.trim();
+  const text = document.getElementById('replyText').value.trim();
+  if(!name || !text){ alert('Enter name and reply'); return; }
+  const c = comments.find(x=>x.id===id);
+  if(!c) return;
+  c.replies = c.replies || [];
+  c.replies.push(name + ': ' + text);
+  persistComments();
+  renderCommentPanel();
+  showModalForComment(c);
+}
+
+// Add comment via dialog
+function togglePenMode(){ penMode = !penMode; updateUI(); }
+
+function openCommentDialog(x,y){
+  const d = document.getElementById('commentDialog');
+  d.style.left = (x + 8) + 'px';
+  d.style.top = (y + 8) + 'px';
+  d.style.display = 'block';
+  document.getElementById('commentName').value = '';
+  document.getElementById('commentText').value = '';
+  document.getElementById('commentName').focus();
+}
+
+function cancelComment(){
+  document.getElementById('commentDialog').style.display = 'none';
+  tempMarker = null;
+}
+
+function saveComment(){
+  const name = document.getElementById('commentName').value.trim();
+  const text = document.getElementById('commentText').value.trim();
+  if(!name || !text){ alert('Please enter name and comment.'); return; }
+  const newComment = {
+    id: Date.now() + Math.floor(Math.random()*1000),
+    scene: tempMarker && tempMarker.scene ? tempMarker.scene : config.scene_ids[currentIdx],
+    yaw: (tempMarker && tempMarker.yaw !== undefined) ? tempMarker.yaw : viewer.getYaw(),
+    pitch: (tempMarker && tempMarker.pitch !== undefined) ? tempMarker.pitch : viewer.getPitch(),
+    name: name,
+    text: text,
+    replies: []
+  };
+  comments.push(newComment);
+  addMarker(newComment);
+  persistComments();
+  renderCommentPanel();
+  cancelComment();
+}
+
+// persist comments to server
+function persistComments(){
+  fetch(commentsSavePath, {
+    method: 'POST',
+    headers: { 'Content-Type':'application/json' },
+    body: JSON.stringify(comments)
+  }).then(r=>{
+    if(!r.ok) console.error('Saving comments failed', r.statusText);
+  }).catch(e=>console.error('Save failed', e));
+}
+
+// load comments
+async function loadComments(){
+  try{
+    const res = await fetch(commentsFetchPath, {cache:'no-store'});
+    if(!res.ok){ console.warn('No comments file or server responded with non-OK'); return; }
+    const data = await res.json();
+    if(!Array.isArray(data)) comments = []; else comments = data;
+    // add markers for all scenes (they'll appear only when their scene active)
+    comments.forEach(c => { try{ addMarker(c); }catch(e){} });
+    return;
+  }catch(e){
+    console.error('Failed to fetch comments:', e);
+  }
+}
+
+// Poll server and merge new comments (simple)
+function loadCommentsInterval(){
+  setInterval(async ()=>{
+    try{
+      const res = await fetch(commentsFetchPath, {cache:'no-store'});
+      if(!res.ok) return;
+      const serverComments = await res.json();
+      serverComments.forEach(sc=>{
+        if(!comments.find(c=>c.id===sc.id)){
+          comments.push(sc);
+          addMarker(sc);
         }
+      });
+      renderCommentPanel();
+    }catch(e){}
+  }, 4000);
+}
 
-        function newScene(sceneId) {
-            currentIdx = config.scene_ids.indexOf(sceneId);
-            updateUI();
-            drawMinimap();
-        }
+function startRealtimeComments(){ loadCommentsInterval(); }
 
-        function buildSceneList() {
-            const ul = document.getElementById('sceneList');
-            ul.innerHTML = '';
-            config.scene_ids.forEach((id, idx) => {
-                const li = document.createElement('li');
-                li.textContent = 'Location ' + id;
-                li.onclick = () => viewer.loadScene(id);
-                if (idx === currentIdx) li.classList.add('active');
-                ul.appendChild(li);
-            });
-        }
+/* helper to open modal from marker/button in hotspot */
+window.openCommentModalById = openCommentModalById;
+window.openCommentFromMarker = openCommentFromMarker;
 
-        function updateUI() {
-            buildSceneList();
-        }
-
-        function prevScene() {
-            if (currentIdx > 0) {
-                viewer.loadScene(config.scene_ids[currentIdx - 1]);
-            }
-        }
-
-        function nextScene() {
-            if (currentIdx < config.scene_ids.length - 1) {
-                viewer.loadScene(config.scene_ids[currentIdx + 1]);
-            }
-        }
-
-        function playTour() {
-            if (playing) return;
-            playing = true;
-            let i = 0;
-            playInterval = setInterval(() => {
-                if (i >= config.scene_ids.length) {
-                    stopTour();
-                    return;
-                }
-                viewer.loadScene(config.scene_ids[i]);
-                i++;
-            }, 2000);
-        }
-
-        function stopTour() {
-            playing = false;
-            clearInterval(playInterval);
-        }
-
-        function drawMinimap() {
-            const canvas = document.getElementById('minimap');
-            const ctx = canvas.getContext('2d');
-            const width = canvas.width = canvas.offsetWidth;
-            const height = canvas.height = canvas.offsetHeight;
-
-            ctx.clearRect(0, 0, width, height);
-            ctx.fillStyle = '#f0f0f0';
-            ctx.fillRect(0, 0, width, height);
-
-            const xArr = config.keyframes.map(kf => kf.x);
-            const zArr = config.keyframes.map(kf => kf.z);
-
-            const minX = Math.min(...xArr);
-            const maxX = Math.max(...xArr);
-            const minZ = Math.min(...zArr);
-            const maxZ = Math.max(...zArr);
-
-            const margin = 20;
-            const scaleX = (width - 2 * margin) / (maxX - minX);
-            const scaleZ = (height - 2 * margin) / (maxZ - minZ);
-            const scale = Math.min(scaleX, scaleZ);
-
-            // Draw path line
-            ctx.beginPath();
-            config.keyframes.forEach((kf, idx) => {
-                const px = margin + (kf.x - minX) * scale;
-                const pz = margin + (kf.z - minZ) * scale;
-
-                if (idx === 0) {
-                    ctx.moveTo(px, pz);
-                } else {
-                    ctx.lineTo(px, pz);
-                }
-            });
-            ctx.strokeStyle = 'black';
-            ctx.lineWidth = 1.5;
-            ctx.stroke();
-
-            // Draw points
-            config.keyframes.forEach((kf, idx) => {
-                const px = margin + (kf.x - minX) * scale;
-                const pz = margin + (kf.z - minZ) * scale;
-
-                ctx.beginPath();
-                ctx.arc(px, pz, idx === currentIdx ? 7 : 4, 0, 2 * Math.PI, false);
-                ctx.fillStyle = idx === currentIdx ? 'red' : 'darkblue';
-                ctx.fill();
-                ctx.lineWidth = 1;
-                ctx.strokeStyle = 'white';
-                ctx.stroke();
-            });
-        }
-
-        function setupMinimapClick() {
-            const canvas = document.getElementById('minimap');
-            canvas.addEventListener('click', (e) => {
-                const rect = canvas.getBoundingClientRect();
-                const clickX = e.clientX - rect.left;
-                const clickZ = e.clientY - rect.top;
-
-                const width = canvas.offsetWidth;
-                const height = canvas.offsetHeight;
-                const margin = 20;
-
-                const xArr = config.keyframes.map(kf => kf.x);
-                const zArr = config.keyframes.map(kf => kf.z);
-
-                const minX = Math.min(...xArr);
-                const maxX = Math.max(...xArr);
-                const minZ = Math.min(...zArr);
-                const maxZ = Math.max(...zArr);
-
-                const scaleX = (width - 2 * margin) / (maxX - minX);
-                const scaleZ = (height - 2 * margin) / (maxZ - minZ);
-                const scale = Math.min(scaleX, scaleZ);
-
-                // Convert click to world coords
-                const worldX = minX + (clickX - margin) / scale;
-                const worldZ = minZ + (clickZ - margin) / scale;
-
-                // Find closest keyframe
-                let closest = 0;
-                let closestDist = Infinity;
-                config.keyframes.forEach((kf, idx) => {
-                    const dx = kf.x - worldX;
-                    const dz = kf.z - worldZ;
-                    const dist = Math.sqrt(dx * dx + dz * dz);
-                    if (dist < closestDist) {
-                        closestDist = dist;
-                        closest = idx;
-                    }
-                });
-
-                viewer.loadScene(config.scene_ids[closest]);
-            });
-        }
-    </script>
+/* Start periodic polling after init */
+</script>
 </body>
 </html>
