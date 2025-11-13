@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,9 +47,56 @@
     @media(max-width:768px){
       #sidebar{position:absolute;right:0;top:0;height:100%;width:80%;max-width:320px;transform:translateX(0)}
     }
-  </style>
+  
+    /* Angle Display Tab */
+    #angleDisplay{
+      position:absolute;
+      top:12px;
+      left:12px;
+      z-index:20;
+      background:rgba(52,73,94,0.95);
+      color:white;
+      padding:10px 16px;
+      border-radius:8px;
+      font-family:'Segoe UI',Roboto,Arial;
+      font-size:13px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.3);
+      min-width:180px;
+    }
+    #angleDisplay div{
+      margin:4px 0;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    #angleDisplay .label{
+      font-weight:600;
+      margin-right:12px;
+    }
+    #angleDisplay .value{
+      font-family:'Courier New',monospace;
+      font-size:14px;
+      color:#3498db;
+    }
+    </style>
 </head>
 <body>
+  <!-- Angle Display Tab -->
+  <div id="angleDisplay">
+    <div>
+      <span class="label">Panorama Yaw:</span>
+      <span class="value" id="panoYaw">0°</span>
+    </div>
+    <div>
+      <span class="label">Panorama Pitch:</span>
+      <span class="value" id="panoPitch">0°</span>
+    </div>
+    <div>
+      <span class="label">Minimap Angle:</span>
+      <span class="value" id="minimapAngle">0°</span>
+    </div>
+  </div>
+
 <div id="container">
   <div id="viewer">
     <button id="menuBtn" onclick="toggleMenu()">☰</button>
@@ -124,17 +172,34 @@ let config, viewer, currentIdx = 0, navHistory = [];
 let playing=false, playSpeed=1, playTimer=null, stopRequested=false;
 let penMode=false, tempMarker=null;
 let comments = []; // array of comment objects loaded from server
+let planImage = null, planTransform = null;
 const commentsFetchPath = '/comments.json';
 const commentsSavePath = '/save_comments';
 
 // escape utility
 function escapeHTML(s){ return String(s||'').replace(/[&<>"']/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]; }); }
 
+function loadPlanImage() {
+  const img = new Image();
+  img.onload = function() {
+    planImage = img;
+    const p1 = { img: { x: 416.5, y: 700.4 }, world: { x: 0, z: 0 } };
+    const p2 = { img: { x: 171.5, y: 119.5 }, world: { x: -4.021056, z: 9.653469 } };
+    planTransform = { p1, p2 };
+    drawMinimap();
+  };
+  img.onerror = function() {
+    console.error("Failed to load plan.jpg - file not found");
+  };
+  img.src = "plan.jpg";
+}
+
 fetch('config.json').then(r=>r.json()).then(d=>{ config=d; init(); }).catch(e=>{ alert('Failed to load config.json: '+e); });
 
 function toggleMenu(){ document.getElementById('sidebar').classList.toggle('show'); }
 
 function init(){
+  loadPlanImage();
   const first = config.scene_ids[0];
   viewer = pannellum.viewer('viewer', {
     'default': { 'firstScene': first, 'sceneFadeDuration': 500, 'hfov': 90 },
@@ -147,6 +212,8 @@ function init(){
     // show only comments for this scene (pannellum automatically shows hotspots for loaded scene if hotspots were added to scenes)
     // additionally re-centre torch/path
     setTorchToPath(currentIdx);
+    // RESET lastYaw when scene changes to prevent torch angle calculation errors
+    lastYaw = null;
     // small delay to ensure scene DOM ready
     setTimeout(()=>{ showSceneComments(id); }, 350);
   });
@@ -227,22 +294,61 @@ function setTorchToPath(i){
   displayedTorch = torchAngle;
 }
 function normalize(a){ while(a<=-Math.PI) a+=2*Math.PI; while(a>Math.PI) a-=2*Math.PI; return a; }
+// Update angle display in real-time
+function updateAngleDisplay() {
+  if (!viewer) return;
+  const yaw = viewer.getYaw();
+  const pitch = viewer.getPitch();
+  document.getElementById('panoYaw').textContent = yaw.toFixed(1) + '°';
+  document.getElementById('panoPitch').textContent = pitch.toFixed(1) + '°';
+  // Minimap torch angle (in degrees)
+  const minimapAngleDeg = (torchAngle * 180 / Math.PI) % 360;
+  document.getElementById('minimapAngle').textContent = minimapAngleDeg.toFixed(1) + '°';
+}
 function dynamicTorch(){
   function loop(){
     const yaw = viewer.getYaw() * Math.PI / 180;
     if(lastYaw != null){ let delta = normalize(yaw - lastYaw); torchAngle = normalize(torchAngle - delta); }
     lastYaw = yaw; displayedTorch = normalize(displayedTorch + (torchAngle - displayedTorch) * 0.15);
-    drawMinimap(); requestAnimationFrame(loop);
+    drawMinimap(); updateAngleDisplay(); requestAnimationFrame(loop);
   } loop();
+}
+
+function drawPlanOverlay(ctx, cw, ch, margin, scale, minX, minZ) {
+  if (!planImage || !planTransform) return;
+  try {
+    ctx.save();
+    const t = planTransform;
+    const p1c = {
+      x: margin + (t.p1.world.x - minX) * scale,
+      y: ch - margin - (t.p1.world.z - minZ) * scale,
+    };
+    const p2c = {
+      x: margin + (t.p2.world.x - minX) * scale,
+      y: ch - margin - (t.p2.world.z - minZ) * scale,
+    };
+    const sx = (p2c.x - p1c.x) / (t.p2.img.x - t.p1.img.x);
+    const sy = (p2c.y - p1c.y) / (t.p2.img.y - t.p1.img.y);
+    const tx = p1c.x - t.p1.img.x * sx;
+    const ty = p1c.y - t.p1.img.y * sy;
+    ctx.globalAlpha = 1;
+    ctx.setTransform(sx, 0, 0, sy, tx, ty);
+    ctx.drawImage(planImage, 0, 0);
+    ctx.restore();
+  } catch (e) {
+    console.error("Plan overlay error", e);
+  }
 }
 function drawMinimap(){
   const c = document.getElementById('minimap'), ctx = c.getContext('2d');
   const w = c.width = c.offsetWidth, h = c.height = c.offsetHeight;
   ctx.clearRect(0,0,w,h);
   ctx.fillStyle='#f8f9fa'; ctx.fillRect(0,0,w,h);
+
   const xA=config.keyframes.map(k=>k.x), zA=config.keyframes.map(k=>k.z);
   const minX=Math.min(...xA), maxX=Math.max(...xA), minZ=Math.min(...zA), maxZ=Math.max(...zA);
   const m=20, s=Math.min((w-2*m)/(maxX-minX),(h-2*m)/(maxZ-minZ));
+  drawPlanOverlay(ctx, w, h, m, s, minX, minZ);
   ctx.beginPath();
   config.keyframes.forEach((k,i)=>{ const x=m+(k.x-minX)*s, z=h-m-(k.z-minZ)*s; if(i===0) ctx.moveTo(x,z); else ctx.lineTo(x,z); });
   ctx.strokeStyle='black'; ctx.lineWidth=1.5; ctx.stroke();
@@ -485,3 +591,4 @@ window.openCommentFromMarker = openCommentFromMarker;
 </script>
 </body>
 </html>
+
